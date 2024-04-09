@@ -1,0 +1,52 @@
+*Apps
+-portfolio app
++links to live projects
++links to repo projects
++youtube vids of projects
++link to resume
++link to linkedin
+
+-budget
++figure out how to build an e-mail inbox
++figure out authentication methood if e-mail doesn't work
+
+-file sharing app
++serve it in docker
++finish setting up basic navigation in UI
++figure out how to upload files
+
+-midterm
++fix issues
++get it from my other pc
+
+-tweeter
++improve front end 
+
+-Tiny app
++improve front end
+
+-Scribble
+(on page load delete all data from db, make this happen when there is nothing on the new note form, this is only needed for when the app is staged)(post this for now as it is, improve later)
+
+*Apps ready to go:
+-scheduler
+-scribble 
+-budget 
+-Express server
+-Algorythms
+
+------------------
+*build the postfolio app (build it using react)
+-setup a docker container for react
+-setup a docker container for postgress
+-run the express js back end server
+-build portfolio website
+-stage website on github
+
+*post all projects that are ready to go onto the portfolio website
+
+-----------after-----------
+*Make sure all tech used in the app is informed in the README files of each project
+*try to stage all websites in the same server
+*keep improving apps that need improvments
+*make a vid presentation or a gif presentation
