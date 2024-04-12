@@ -17,7 +17,7 @@ export default function Skills() {
       Tech
       </div>
 
-      <dev className="tech-container">
+      <div className="tech-container">
       
       <div className="vert-subcontainer-group">
         <div className="vert-subcontainer-group-inner">
@@ -244,13 +244,13 @@ export default function Skills() {
           </div>
         </div>
 
-      </dev>
+      </div>
 
       <div className="tittle-subtittle">
       Media
       </div>
 
-      <dev className="media-container">
+      <div className="media-container">
 
         <div className="horiz-subcontainer-group">
         <div className="horiz-subcontainer-group-inner">
@@ -336,7 +336,7 @@ export default function Skills() {
           </div>
         </div>
 
-      </dev>
+      </div>
 
     </div>
   );

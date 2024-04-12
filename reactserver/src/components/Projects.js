@@ -51,10 +51,11 @@ export default function Projects() {
             </a>
             
             <div className="projects-text">
-              Track spending and more, from any bank account.
-              Presents a list of week days. For each day there are slots where a user can book an appointment(provided the slot is available).
+              Presents a list of week days. For each day there are slots where a user can book an appointment (provided the slot is available).
               <div className="text-paragraph">.</div>
-              To create an appointment, the user types in their name and selects one of the available interviewers. Any created appointment can be edited or deleted.
+              To create an appointment, the user types in their name and selects one of the available interviewers.
+              <div className="text-paragraph">.</div>
+              Any created appointment can be edited or deleted.
             </div>
 
             <img className="projects-image" src="../../images/projects/schedulerApp/main-page.JPG"></img>
@@ -80,7 +81,7 @@ export default function Projects() {
             <div className="projects-text">
               A fullstack WordPress CRUD app where a user can add notes and sketches.
               <div className="text-paragraph">.</div>
-              There are ACFs where an editor with access to the wp-admin can add images that show up below the notes and the editor can also update date of the last update to the site. This info is displayed on the footer.
+              There are ACFs where an editor with access to the wp-admin user can add images that show up below the notes. The editor can also change the footer info (date when the page was last updated).
               <div className="text-paragraph">.</div>
               This app also includes SEO/schema
             </div>

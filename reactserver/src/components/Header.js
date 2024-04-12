@@ -21,7 +21,33 @@ export default function Header() {
   }
   
   const handelProjectsClick = () => {
-    window.scrollTo(0,1400)
+
+
+    // window.scrollTo(0,1400)
+    console.log(document.body.offsetWidth)
+    if(document.body.offsetWidth >= 1214){
+      window.scrollTo(0,1400)
+    }
+    else if(document.body.offsetWidth <= 1214 && document.body.offsetWidth > 873){
+      window.scrollTo(0,1900)
+    }
+    else if(document.body.offsetWidth <= 873 && document.body.offsetWidth > 739){
+      window.scrollTo(0,2100)
+    }
+    else if(document.body.offsetWidth <= 739 && document.body.offsetWidth > 586){
+      window.scrollTo(0,2700)
+    }
+    else if(document.body.offsetWidth <= 586 && document.body.offsetWidth > 551){
+      window.scrollTo(0,2800)
+    }
+    else if(document.body.offsetWidth <= 551 && document.body.offsetWidth > 487){
+      window.scrollTo(0,3300)
+    }
+    else if(document.body.offsetWidth <= 487){
+      window.scrollTo(0,3900)
+    }
+    
+    
     setDropDown(false)
   }
 

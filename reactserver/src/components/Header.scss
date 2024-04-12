@@ -77,11 +77,20 @@
 
 .intro{
   // margin-left: -9px;
+  // color: rgb(205 183 160);
   color: black;
   display: flex;
   font-size: 20px;
   flex-direction: column;
   min-width: 280px;
+
+  // position: relative;
+  // top: 136px;
+  // left: -226px;
+  // color: rgb(205 183 160);
+  // width: 279px;
+
+
 
   &-hi{
     margin: 5px;
