@@ -1,5 +1,8 @@
 import React from "react";
 import "./Content.scss"
+import Skills from "./Skills"
+import About from "./About"
+import Projects from "./Projects"
 import globalStates from '../hooks/globalStates';
 
 export default function Content() {
@@ -10,7 +13,12 @@ export default function Content() {
       return(
 
         <div className="content">
-        
+
+          
+          <Skills />
+          <Projects />
+          <About />
+
         </div>
             )
     }

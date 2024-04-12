@@ -10,9 +10,13 @@ const handelEmailClick = () => {
       setContent('email')
 }
 
+const topOfPage = () => {
+  window.scrollTo(0,0)
+}
+
   return (
     <div className="footer">
-      <div className='text-link'>
+      <div onClick={topOfPage} className='text-link'>
         Top of page
       </div>
 

@@ -1,12 +1,16 @@
 .email-content{
     display: flex;
     justify-content: center;
+    background-color: #f0f8ff1a;
+    border-radius: 16px;
+    padding: 10px;
+    margin-top: 68px;
 }
 
 .email-form{
     display: flex;
     justify-content: center;
-    margin: 68px;
+    // margin: 68px;
     flex-direction: column;
     align-items: flex-start;
 }
@@ -37,18 +41,25 @@
 .submit{
     margin: 13px;
     resize: none;
-    background-color: rgb(255 255 255 / 54%);
+    background-color: rgba(255, 255, 255, 0.54);
     border-radius: 4px;
     color: black;
     padding: 7px;
     padding-right: 9px;
     padding-left: 9px;
     border-style: outset;
-    border-width: 4px;
+    border-width: 3px;
     cursor: pointer;
+    border-color: rgb(206 206 206 / 83%);;
     
     &:active{
         border-style: inset;
 
+    }
+}
+
+@media (max-width:940px){
+    .email-content{
+        margin-top: 160px;
     }
 }

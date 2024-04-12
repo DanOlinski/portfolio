@@ -1,9 +1,41 @@
 @keyframes menu-icon {
-  0%   {margin-top: 5px;}
-  2%   {margin-top: 7px;}
-  3%   {margin-top: 7.5px;}
-  100% {margin-top: 7.5px;}
+  0%   {
+    margin-top: 5px;
+    // margin-bottom: 5px;
+  }
+  2%   {
+    margin-top: 7px;
+    // margin-bottom: 7px;
+  }
+  3%   {
+    margin-top: 7.5px;
+    // margin-bottom: 7.55px;
+  }
+  100% {
+    margin-top: 7.5px;
+    // margin-bottom: 7.5px;
+  }
 }
+
+@keyframes menu-icon-top {
+  0%   {
+    margin-top: 4px;
+    // margin-bottom: 5px;
+  }
+  2%   {
+    margin-top: 3px;
+    // margin-bottom: 7px;
+  }
+  3%   {
+    margin-top: 2.5px;
+    // margin-bottom: 7.55px;
+  }
+  100% {
+    margin-top: 2.5px;
+    // margin-bottom: 7.5px;
+  }
+}
+
 
 @keyframes menu-options {
   0%   {margin-top: -30px;}
@@ -17,18 +49,25 @@
   100% {margin-top: 2px;}
 }
 
+.menu-composite{
+  display: flex;
+  flex-direction: column;
+}
+
 .dropdown {
-  position: absolute;
-  top: 155px;
-  left: 491px;
+  position: relative;
+  top: -28px;
+  right: 47px;
   min-width: 100px;
-  box-shadow: 10px 8px 16px 0px rgba(0, 0, 0, 0.51);
   z-index: 1;
+  
+  box-shadow: 10px 8px 16px 0px rgba(0, 0, 0, 0.51);
   border-color: rgba(231, 244, 255, 0.2);
   border-width: 2px;
   border-style: solid;
   border-radius: 2px;
   background-color: rgb(30 32 33 / 57%);
+  
   animation-name: menu-options;
   animation-duration: 10s;
 
@@ -61,33 +100,70 @@
   display: flex;
   flex-direction: column;
   cursor: pointer;
-  margin-left: 27px;
+  margin: 32px;
+  margin-right: 47px;
+  margin-top: 20px;
+
+  // margin-left: 25px;
 
     &-line{
       width:50px; 
       height:6.5px; 
       margin: 5px;
       background: #000000a8; 
+
+      &-top{
+        width:50px; 
+      height:6.5px; 
+      margin: 5px;
+      background: #000000a8;
+      }
     }
 
+    
+
     &:hover{
+          
       .menu-icon-line{
         animation-name: menu-icon;
-        animation-duration: 10s;
+      animation-duration: 10s;
+      }
+
+      .menu-icon-line-top{
+        animation-name: menu-icon-top;
+      animation-duration: 10s;
       }
     }
     
 }
 
 /*tablet and smartphone layout*/
-@media (max-width:700px){
+@media (max-width:940px){
 
   .menu-icon{
-    margin-left: 110px;
+    position: relative;
+    left: -309px;
   }
 
   .dropdown{
-    left: 288px;
+    left: -275px;
+  }
+}
+.icon-list{
+  width: 15px;
+  height: 13px;
+  margin-right: 5px;
+}
+
+@media (max-width:702px){
+
+  .menu-icon{
+    position: relative;
+    left: -208px;
+  }
+
+  .dropdown{
+    left: -174px;
   }
 }
 .icon-list{
