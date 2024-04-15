@@ -28,6 +28,9 @@ export default function Projects() {
               Track spending and more, from any bank account.
               <div className="text-paragraph">.</div>
               When the user swipes a card, in about 3 seconds the spending information is added to the app.
+              <div className="text-paragraph">.</div>
+              Stack: Reacts, Asure, PostGreSQL Express.js, Axios, HTML, SASS
+
             </div>
 
             <img className="projects-image" src="/portfolio/images/projects/budget/pieChartSpending.png"></img>
@@ -56,6 +59,8 @@ export default function Projects() {
               To create an appointment, the user types in their name and selects one of the available interviewers.
               <div className="text-paragraph">.</div>
               Any created appointment can be edited or deleted.
+              <div className="text-paragraph">.</div>
+              Stack: Axios, React, Storybook, SASS, Jest, PostgreSQL
             </div>
 
             <img className="projects-image" src="/portfolio/images/projects/schedulerApp/main-page.JPG"></img>
@@ -84,6 +89,9 @@ export default function Projects() {
               There are ACFs where an editor with access to the wp-admin user can add images that show up below the notes. The editor can also change the footer info (date when the page was last updated).
               <div className="text-paragraph">.</div>
               This app also includes SEO/schema
+              <div className="text-paragraph">.</div>
+              Stack: php, WordPress, WebPack, SASS, HTML, Ajax, jQuery, VanilaJavascript, Docker, MySQL, PhpMyAdmin
+
             </div>
 
             <img className="projects-image" src="/portfolio/images//projects/scribble/Snapshot1.PNG"></img>
@@ -108,6 +116,9 @@ export default function Projects() {
             A ready to use ExpressJs server template with a PostgreSQL database.
               <div className="text-paragraph">.</div>
               This backend server can be used to add a database to any application, making the production of fullstack apps more straight forward and less time consuming. Setting it up is easy due to great documentation and thorough testing.
+              <div className="text-paragraph">.</div>
+              Stack: Axios, Dotenv, ejs, ExpressJs, Morgan, pg, Nodemon
+
             </div>
 
             <img className="projects-image" src="/portfolio/images//projects/expressJsServerTemplate/background.jpg"></img>
@@ -132,6 +143,8 @@ export default function Projects() {
             This is an npm library package containing general purpose javascript algorithms that can be installed and used when creating javascript applications.
               <div className="text-paragraph">.</div>
               The goal of this npm package is to eliminating extra work when developing js applications. Inspired on the [Lodash](https://lodash.com) library.
+              <div className="text-paragraph">.</div>
+              Stack: Node v 16, Chai, Mocha
             </div>
 
             <img className="projects-image" src="/portfolio/images//projects/jsAlgorythms/Capture.PNG"></img>

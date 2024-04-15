@@ -2,6 +2,8 @@
 
 # dependencies
 /node_modules
+/node_modules_shell
+/node_modules_wsl
 /.pnp
 .pnp.js
 
