@@ -26,49 +26,49 @@ export default function Skills() {
           
           <div className="vert-subcontainer-line"></div>
           <div className="vert-subcontainer-item">
-            <img className="vert-subcontainer-image" src="../../images/logos/react.png"></img>
+            <img className="vert-subcontainer-image" src="/portfolio/images/logos/react.png"></img>
             React
           </div>
 
           <div className="vert-subcontainer-line"></div>
           <div className="vert-subcontainer-item">
-            <img className="vert-subcontainer-image" src="../../images/logos/nextjs.png"></img>
+            <img className="vert-subcontainer-image" src="/portfolio/images/logos/nextjs.png"></img>
             Next.Js
           </div>
 
           <div className="vert-subcontainer-line"></div>
           <div className="vert-subcontainer-item">
-            <img className="vert-subcontainer-image" src="../../images/logos/ajax.png"></img>
+            <img className="vert-subcontainer-image" src="/portfolio/images/logos/ajax.png"></img>
             Ajax
           </div>
 
           <div className="vert-subcontainer-line"></div>
           <div className="vert-subcontainer-item">
-            <img className="vert-subcontainer-image" src="../../images/logos/jquery.png"></img>
+            <img className="vert-subcontainer-image" src="/portfolio/images/logos/jquery.png"></img>
             jQuery
           </div>
 
           <div className="vert-subcontainer-line"></div>
           <div className="vert-subcontainer-item">
-            <img className="vert-subcontainer-image" src="../../images/logos/bootstrap.png"></img>
+            <img className="vert-subcontainer-image" src="/portfolio/images/logos/bootstrap.png"></img>
             Bootstrap
           </div>
 
           <div className="vert-subcontainer-line"></div>
           <div className="vert-subcontainer-item">
-            <img className="vert-subcontainer-image" src="../../images/logos/axios.png"></img>
+            <img className="vert-subcontainer-image" src="/portfolio/images/logos/axios.png"></img>
             Axios
           </div>
 
           <div className="vert-subcontainer-line"></div>
           <div className="vert-subcontainer-item">
-            <img className="vert-subcontainer-image" src="../../images/logos/ruby-on-rails.png"></img>
+            <img className="vert-subcontainer-image" src="/portfolio/images/logos/ruby-on-rails.png"></img>
             Ruby on Rails
           </div>
 
           <div className="vert-subcontainer-line"></div>
           <div className="vert-subcontainer-item">
-            <img className="vert-subcontainer-image" src="../../images/logos/expressjs.png"></img>
+            <img className="vert-subcontainer-image" src="/portfolio/images/logos/expressjs.png"></img>
             ExpressJs
           </div>
 
@@ -82,43 +82,43 @@ export default function Skills() {
           
           <div className="vert-subcontainer-line"></div>
           <div className="vert-subcontainer-item">
-            <img className="vert-subcontainer-image" src="../../images/logos/javascript.png"></img>
+            <img className="vert-subcontainer-image" src="/portfolio/images/logos/javascript.png"></img>
             JavaScript
           </div>
 
           <div className="vert-subcontainer-line"></div>
           <div className="vert-subcontainer-item">
-            <img className="vert-subcontainer-image" src="../../images/logos/ruby.png"></img>
+            <img className="vert-subcontainer-image" src="/portfolio/images/logos/ruby.png"></img>
             Ruby
           </div>
 
           <div className="vert-subcontainer-line"></div>
           <div className="vert-subcontainer-item">
-            <img className="vert-subcontainer-image" src="../../images/logos/html.png"></img>
+            <img className="vert-subcontainer-image" src="/portfolio/images/logos/html.png"></img>
             HTML
           </div>
 
           <div className="vert-subcontainer-line"></div>
           <div className="vert-subcontainer-item">
-            <img className="vert-subcontainer-image" src="../../images/logos/ejs.png"></img>
+            <img className="vert-subcontainer-image" src="/portfolio/images/logos/ejs.png"></img>
             ejs
           </div>
 
           <div className="vert-subcontainer-line"></div>
           <div className="vert-subcontainer-item">
-            <img className="vert-subcontainer-image" src="../../images/logos/css.png"></img>
+            <img className="vert-subcontainer-image" src="/portfolio/images/logos/css.png"></img>
             CSS
           </div>
 
           <div className="vert-subcontainer-line"></div>
           <div className="vert-subcontainer-item">
-            <img className="vert-subcontainer-image" src="../../images/logos/sass.png"></img>
+            <img className="vert-subcontainer-image" src="/portfolio/images/logos/sass.png"></img>
             SASS
           </div>
 
           <div className="vert-subcontainer-line"></div>
           <div className="vert-subcontainer-item">
-            <img className="vert-subcontainer-image" src="../../images/logos/php.png"></img>
+            <img className="vert-subcontainer-image" src="/portfolio/images/logos/php.png"></img>
             PHP
           </div>
           </div>
@@ -131,37 +131,37 @@ export default function Skills() {
           
           <div className="vert-subcontainer-line"></div>
           <div className="vert-subcontainer-item">
-            <img className="vert-subcontainer-image" src="../../images/logos/storybook.png"></img>
+            <img className="vert-subcontainer-image" src="/portfolio/images/logos/storybook.png"></img>
             Storybook
           </div>
 
           <div className="vert-subcontainer-line"></div>
           <div className="vert-subcontainer-item">
-            <img className="vert-subcontainer-image" src="../../images/logos/rspec.png"></img>
+            <img className="vert-subcontainer-image" src="/portfolio/images/logos/rspec.png"></img>
             RSpec
           </div>
 
           <div className="vert-subcontainer-line"></div>
           <div className="vert-subcontainer-item">
-            <img className="vert-subcontainer-image" src="../../images/logos/cypress.png"></img>
+            <img className="vert-subcontainer-image" src="/portfolio/images/logos/cypress.png"></img>
             Cypress
           </div>
 
           <div className="vert-subcontainer-line"></div>
           <div className="vert-subcontainer-item">
-            <img className="vert-subcontainer-image" src="../../images/logos/mocha.png"></img>
+            <img className="vert-subcontainer-image" src="/portfolio/images/logos/mocha.png"></img>
             Mocha
           </div>
 
           <div className="vert-subcontainer-line"></div>
           <div className="vert-subcontainer-item">
-            <img className="vert-subcontainer-image" src="../../images/logos/chai.png"></img>
+            <img className="vert-subcontainer-image" src="/portfolio/images/logos/chai.png"></img>
             Chai
           </div>
 
           <div className="vert-subcontainer-line"></div>
           <div className="vert-subcontainer-item">
-            <img className="vert-subcontainer-image" src="../../images/logos/jest.png"></img>
+            <img className="vert-subcontainer-image" src="/portfolio/images/logos/jest.png"></img>
             Jest
           </div>
 
@@ -175,31 +175,31 @@ export default function Skills() {
 
           <div className="vert-subcontainer-line"></div>
           <div className="vert-subcontainer-item">
-            <img className="vert-subcontainer-image" src="../../images/logos/linux.png"></img>
+            <img className="vert-subcontainer-image" src="/portfolio/images/logos/linux.png"></img>
             Linux
           </div>
 
           <div className="vert-subcontainer-line"></div>
           <div className="vert-subcontainer-item">
-            <img className="vert-subcontainer-image" src="../../images/logos/wsl.png"></img>
+            <img className="vert-subcontainer-image" src="/portfolio/images/logos/wsl.png"></img>
             WSL
           </div>
 
           <div className="vert-subcontainer-line"></div>
           <div className="vert-subcontainer-item">
-            <img className="vert-subcontainer-image" src="../../images/logos/macOS.png"></img>
+            <img className="vert-subcontainer-image" src="/portfolio/images/logos/macOS.png"></img>
             MacOS
           </div>
 
           <div className="vert-subcontainer-line"></div>
           <div className="vert-subcontainer-item">
-            <img className="vert-subcontainer-image" src="../../images/logos/docker.png"></img>
+            <img className="vert-subcontainer-image" src="/portfolio/images/logos/docker.png"></img>
             Docker
           </div>
 
           <div className="vert-subcontainer-line"></div>
           <div className="vert-subcontainer-item">
-            <img className="vert-subcontainer-image" src="../../images/logos/nodejs.png"></img>
+            <img className="vert-subcontainer-image" src="/portfolio/images/logos/nodejs.png"></img>
             NodeJs
           </div>
           
@@ -213,31 +213,31 @@ export default function Skills() {
           
           <div className="vert-subcontainer-line"></div>
           <div className="vert-subcontainer-item">
-            <img className="vert-subcontainer-image" src="../../images/logos/sql.png"></img>
+            <img className="vert-subcontainer-image" src="/portfolio/images/logos/sql.png"></img>
            MySQL
           </div>
 
           <div className="vert-subcontainer-line"></div>
           <div className="vert-subcontainer-item">
-            <img className="vert-subcontainer-image" src="../../images/logos/postgres.png"></img>
+            <img className="vert-subcontainer-image" src="/portfolio/images/logos/postgres.png"></img>
             PostgreSQL
           </div>
 
           <div className="vert-subcontainer-line"></div>
           <div className="vert-subcontainer-item">
-            <img className="vert-subcontainer-image" src="../../images/logos/phpmyadmin.png"></img>
+            <img className="vert-subcontainer-image" src="/portfolio/images/logos/phpmyadmin.png"></img>
             PhpMyAdmin
           </div>
 
           <div className="vert-subcontainer-line"></div>
           <div className="vert-subcontainer-item">
-            <img className="vert-subcontainer-image" src="../../images/logos/github.png"></img>
+            <img className="vert-subcontainer-image" src="/portfolio/images/logos/github.png"></img>
             Git
           </div>
 
           <div className="vert-subcontainer-line"></div>
           <div className="vert-subcontainer-item">
-            <img className="vert-subcontainer-image" src="../../images/logos/wordpress.png"></img>
+            <img className="vert-subcontainer-image" src="/portfolio/images/logos/wordpress.png"></img>
             WordPress
           </div>
 
@@ -260,25 +260,25 @@ export default function Skills() {
           <div className="horiz-subcontainer-group-inner-child">
 
           <div className="vert-subcontainer-item">
-            <img className="vert-subcontainer-image" src="../../images/logos/photoshop.png"></img>
+            <img className="vert-subcontainer-image" src="/portfolio/images/logos/photoshop.png"></img>
             Photoshop
           <div className="horiz-subcontainer-line"></div>
           </div>
 
           <div className="vert-subcontainer-item">
-            <img className="vert-subcontainer-image" src="../../images/logos/autodesk.png"></img>
+            <img className="vert-subcontainer-image" src="/portfolio/images/logos/autodesk.png"></img>
             Autodesk Suite
           <div className="horiz-subcontainer-line"></div>
           </div>
 
           <div className="vert-subcontainer-item">
-            <img className="vert-subcontainer-image" src="../../images/logos/solidworks.png"></img>
+            <img className="vert-subcontainer-image" src="/portfolio/images/logos/solidworks.png"></img>
             Solid Works
           <div className="horiz-subcontainer-line"></div>
           </div>
 
           <div className="vert-subcontainer-item">
-            <img className="vert-subcontainer-image" src="../../images/logos/msoffice.png"></img>
+            <img className="vert-subcontainer-image" src="/portfolio/images/logos/msoffice.png"></img>
             Microsoft Suit
           <div className="horiz-subcontainer-line"></div>
           </div>
@@ -299,31 +299,31 @@ export default function Skills() {
           <div className="horiz-subcontainer-group-inner-child">
 
           <div className="vert-subcontainer-item">
-            <img className="vert-subcontainer-image" src="../../images/logos/ableton.png"></img>
+            <img className="vert-subcontainer-image" src="/portfolio/images/logos/ableton.png"></img>
             Ableton
           <div className="horiz-subcontainer-line"></div>
           </div>
 
           <div className="vert-subcontainer-item">
-            <img className="vert-subcontainer-image" src="../../images/logos/cubase.png"></img>
+            <img className="vert-subcontainer-image" src="/portfolio/images/logos/cubase.png"></img>
             Cubase
           <div className="horiz-subcontainer-line"></div>
           </div>
 
           <div className="vert-subcontainer-item">
-            <img className="vert-subcontainer-image" src="../../images/logos/spire.png"></img>
+            <img className="vert-subcontainer-image" src="/portfolio/images/logos/spire.png"></img>
             Spire
           <div className="horiz-subcontainer-line"></div>
           </div>
 
           <div className="vert-subcontainer-item">
-            <img className="vert-subcontainer-image" src="../../images/logos/serum.png"></img>
+            <img className="vert-subcontainer-image" src="/portfolio/images/logos/serum.png"></img>
             Serum
           <div className="horiz-subcontainer-line"></div>
           </div>
 
           <div className="vert-subcontainer-item">
-            <img className="vert-subcontainer-image" src="../../images/logos/adobe.png"></img>
+            <img className="vert-subcontainer-image" src="/portfolio/images/logos/adobe.png"></img>
             Adobe Suite
           <div className="horiz-subcontainer-line"></div>
           </div>

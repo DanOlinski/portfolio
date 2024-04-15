@@ -24,24 +24,24 @@ const topOfPage = () => {
 
         <div className='links'>
           <a className='a-element' href="https://flowcv.com/resume/k7nvdbtl1r" target="_blank">
-            <img className="f-icon f-resume" src="../../images/resume-w.png"></img>
+            <img className="f-icon f-resume" src="/portfolio/images/resume-w.png"></img>
             Resume
           </a>
         </div>
         <div className='links'>
           <a className='a-element' href="https://www.linkedin.com/in/daniel-olinski-guterres-6542a550/" target="_blank">
-            <img className="f-icon f-linkedin" src="../../images/linkedin-w.png"></img>
+            <img className="f-icon f-linkedin" src="/portfolio/images/linkedin-w.png"></img>
             Linkedin
           </a>
         </div>
         <div className='links'>
           <a className='a-element' href="https://github.com/DanOlinski" target="_blank">
-            <img className="f-icon f-github" src="../../images/github-w.png"></img>
+            <img className="f-icon f-github" src="/portfolio/images/github-w.png"></img>
             Github
           </a>
         </div>
         <div onClick={handelEmailClick} className='links'>
-            <img className="f-icon f-email" src="../../images/email-w.png"></img>
+            <img className="f-icon f-email" src="/portfolio/images/email-w.png"></img>
             email
         </div>
       </div>

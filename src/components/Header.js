@@ -98,27 +98,27 @@ export default function Header() {
           <div className='dropdown-line'></div>
           <div onClick={closeMenu} className='dropdown-options'>
             <a className='a-element' href="https://flowcv.com/resume/k7nvdbtl1r" target="_blank">
-              <img className="icon-list" src="../../images/resume-w.png"></img>
+              <img className="icon-list" src="/portfolio/images/resume-w.png" alt='image'></img>
               Resume
             </a>
           </div>
           <div className='dropdown-line'></div>
           <div onClick={closeMenu} className='dropdown-options'>
             <a className='a-element' href="https://github.com/DanOlinski" target="_blank">
-              <img className="icon-list" src="../../images/github-w.png"></img>
+              <img className="icon-list" src="/portfolio/images/github-w.png"></img>
               Github
             </a>
           </div>
           <div className='dropdown-line'></div>
           <div onClick={closeMenu} className='dropdown-options'>
             <a className='a-element' href="https://www.linkedin.com/in/daniel-olinski-guterres-6542a550/" target="_blank">
-              <img className="icon-list" src="../../images/linkedin-w.png"></img>
+              <img className="icon-list" src="/portfolio/images/linkedin-w.png"></img>
               Linkedin
             </a>
           </div>
           <div className='dropdown-line'></div>
           <div onClick={handelEmailClick} className='dropdown-options'>
-            <img className="icon-list" src="../../images/email-w.png"></img>
+            <img className="icon-list" src="/portfolio/images/email-w.png"></img>
             Send Email
           </div>
 
@@ -138,20 +138,20 @@ export default function Header() {
         <div className='icons'>
 
           <a href="https://flowcv.com/resume/k7nvdbtl1r" target="_blank">
-            <img className="icon resume" src="../../images/resume.png"></img>
+            <img className="icon resume" src="/portfolio/images/resume.png"></img>
           </a>
           <a href="https://www.linkedin.com/in/daniel-olinski-guterres-6542a550/" target="_blank">
-            <img className="icon linkedin" src="../../images/linkedin.png"></img>
+            <img className="icon linkedin" src="/portfolio/images/linkedin.png"></img>
           </a>
           <a href="https://github.com/DanOlinski" target="_blank">
-            <img className="icon github" src="../../images/github.png"></img>
+            <img className="icon github" src="/portfolio/images/github.png"></img>
           </a>
 
-          <img onClick={handelEmailClick} className="icon email" src="../../images/email.png"></img>
+          <img onClick={handelEmailClick} className="icon email" src="/portfolio/images/email.png"></img>
 
         </div>
 
-        <img onClick={handelHomeClick} className="header-img" src="../../images/profile.jpg"></img>
+        <img onClick={handelHomeClick} className="header-img" src="/portfolio/images/profile.jpg"></img>
 
         <div className='intro'>
 

@@ -30,9 +30,9 @@ export default function Projects() {
               When the user swipes a card, in about 3 seconds the spending information is added to the app.
             </div>
 
-            <img className="projects-image" src="../../images/projects/budget/pieChartSpending.png"></img>
+            <img className="projects-image" src="/portfolio/images/projects/budget/pieChartSpending.png"></img>
 
-            <img className="projects-image" src="../../images/projects/budget/Categories.png"></img>
+            <img className="projects-image" src="/portfolio/images/projects/budget/Categories.png"></img>
 
           </div>
         </div>
@@ -58,9 +58,9 @@ export default function Projects() {
               Any created appointment can be edited or deleted.
             </div>
 
-            <img className="projects-image" src="../../images/projects/schedulerApp/main-page.JPG"></img>
+            <img className="projects-image" src="/portfolio/images/projects/schedulerApp/main-page.JPG"></img>
 
-            <img className="projects-image" src="../../images/projects/schedulerApp/new-appointment.JPG"></img>
+            <img className="projects-image" src="/portfolio/images/projects/schedulerApp/new-appointment.JPG"></img>
 
           </div>
         </div>
@@ -86,7 +86,7 @@ export default function Projects() {
               This app also includes SEO/schema
             </div>
 
-            <img className="projects-image" src="../../images//projects/scribble/Snapshot1.PNG"></img>
+            <img className="projects-image" src="/portfolio/images//projects/scribble/Snapshot1.PNG"></img>
 
           </div>
         </div>
@@ -110,7 +110,7 @@ export default function Projects() {
               This backend server can be used to add a database to any application, making the production of fullstack apps more straight forward and less time consuming. Setting it up is easy due to great documentation and thorough testing.
             </div>
 
-            <img className="projects-image" src="../../images//projects/expressJsServerTemplate/background.jpg"></img>
+            <img className="projects-image" src="/portfolio/images//projects/expressJsServerTemplate/background.jpg"></img>
 
           </div>
         </div>
@@ -134,7 +134,7 @@ export default function Projects() {
               The goal of this npm package is to eliminating extra work when developing js applications. Inspired on the [Lodash](https://lodash.com) library.
             </div>
 
-            <img className="projects-image" src="../../images//projects/jsAlgorythms/Capture.PNG"></img>
+            <img className="projects-image" src="/portfolio/images//projects/jsAlgorythms/Capture.PNG"></img>
 
           </div>
         </div>
