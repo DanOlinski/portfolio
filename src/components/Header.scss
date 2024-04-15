@@ -145,3 +145,21 @@
 
   }
 }
+
+@media (max-width:336px){
+  .header{
+    padding-left: 10px;
+    margin-bottom: 250px;
+  }
+  .header-img {
+    margin: -90px;
+    margin-left: 10px;
+  }
+
+  .intro{
+    left: -129px;
+    top: 112px;
+
+  }
+}
+

@@ -171,3 +171,42 @@
   height: 13px;
   margin-right: 5px;
 }
+
+@media (max-width:405px){
+  .dropdown{
+    left: -215px;
+  }
+}
+
+@media (max-width:360px){
+  .dropdown{
+    left: -239px;
+    top: 10px;
+  }
+}
+
+@media (max-width:336px){
+  .menu-icon{
+    position: relative;
+    left: -264px;
+    top: 210px;
+  }
+
+  .dropdown{
+    left: -314px;
+    top: 201px;
+  }
+
+  .icons{
+    height: 69px;
+      min-width: 73px;
+      max-width: 73px;
+      display: flex;
+      flex-wrap: wrap;
+      position: relative;
+      top: 206px;
+      left: 75px;
+  
+  }
+}
+
