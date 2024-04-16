@@ -15,8 +15,8 @@ export default function Content() {
         <div className="content">
 
           
-          <Skills />
           <Projects />
+          <Skills />
           <About />
 
         </div>

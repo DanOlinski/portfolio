@@ -187,7 +187,7 @@ export default function Skills() {
 
           <div className="vert-subcontainer-line"></div>
           <div className="vert-subcontainer-item">
-            <img className="vert-subcontainer-image" src="/portfolio/images/logos/macOS.png"></img>
+            <img className="vert-subcontainer-image" src="/portfolio/images/logos/macoS.png"></img>
             MacOS
           </div>
 
