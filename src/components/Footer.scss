@@ -107,3 +107,13 @@
 
   }
 }
+
+@media (max-width:411px){
+  f-icons{
+    flex-direction: column;
+  }
+
+  .footer{
+    height: 271px;
+  }
+}
