@@ -63,3 +63,15 @@
         margin-top: 160px;
     }
 }
+
+@media (max-width:498px){
+    .email-body{
+        width: 300px;
+    }
+}
+
+@media (max-width:370px){
+    .email-body{
+        width: 250px;
+    }
+}
