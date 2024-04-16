@@ -99,8 +99,9 @@ export default function Header() {
       return (
         <div className='dropdown'>
           <div onClick={handelHomeClick} className='dropdown-options'>Home</div>
-          <div className='dropdown-line'></div>
-          <div onClick={handelProjectsClick} className='dropdown-options'>Projects</div>
+          {/* the commented out code below is only if Projects section is placed after Skills section */}
+          {/* <div className='dropdown-line'></div>
+          <div onClick={handelProjectsClick} className='dropdown-options'>Projects</div> */}
           <div className='dropdown-line'></div>
           <div onClick={closeMenu} className='dropdown-options'>
             <a className='a-element' href="https://flowcv.com/resume/k7nvdbtl1r" target="_blank">
