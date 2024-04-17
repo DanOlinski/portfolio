@@ -49,7 +49,7 @@ export default function Projects() {
 
             <div className="vert-subcontainer-line"></div>
 
-            <a className="projects-text-link" href="https://github.com/DanOlinski/schedulerApp/blob/master/reactServer/docs/new-appointment.JPG" target="_blank">
+            <a className="projects-text-link" href="https://github.com/DanOlinski/schedulerApp.JPG" target="_blank">
               Link to repository
             </a>
             
@@ -79,7 +79,7 @@ export default function Projects() {
 
             <div className="vert-subcontainer-line"></div>
 
-            <a className="projects-text-link" href="https://github.com/DanOlinski/Scribble/blob/master/README.md" target="_blank">
+            <a className="projects-text-link" href="https://github.com/DanOlinski/Scribble" target="_blank">
               Link to repository
             </a>
 
@@ -135,7 +135,7 @@ export default function Projects() {
 
             <div className="vert-subcontainer-line"></div>
 
-            <a className="projects-text-link" href="https://github.com/DanOlinski/jsAlgorithms/blob/master/modules/eqObjects.js" target="_blank">
+            <a className="projects-text-link" href="https://github.com/DanOlinski/jsAlgorithms" target="_blank">
               Link to repository
             </a>
 
