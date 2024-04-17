@@ -49,7 +49,7 @@ export default function Projects() {
 
             <div className="vert-subcontainer-line"></div>
 
-            <a className="projects-text-link" href="https://github.com/DanOlinski/schedulerApp.JPG" target="_blank">
+            <a className="projects-text-link" href="https://github.com/DanOlinski/schedulerApp" target="_blank">
               Link to repository
             </a>
             
