@@ -20,8 +20,14 @@
     resize: none;
     width: 450px;
     height: 200px;
-    background-color: rgb(255 255 255 / 86%);
+    // background-color: rgb(255 255 255 / 86%);
     border-radius: 4px;
+
+    background-color: rgb(177 176 176 / 84%);
+    padding: 5px;
+    /* border-width: 1.4px; */
+    border-style: none;
+
     &:focus{
         outline: none;
     }
@@ -30,8 +36,14 @@
 .email-info{
     margin: 13px;
     resize: none;
-    background-color: rgb(255 255 255 / 86%);
+    // background-color: rgb(255 255 255 / 86%);
     border-radius: 4px;
+
+    background-color: rgb(177 176 176 / 84%);
+    padding: 5px;
+    /* border-width: 1.4px; */
+    border-style: none;
+
     &:focus{
         outline: none;
     }
