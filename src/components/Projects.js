@@ -29,7 +29,7 @@ export default function Projects() {
               <div className="text-paragraph">.</div>
               When the user swipes a card, in about 3 seconds the spending information is added to the app.
               <div className="text-paragraph">.</div>
-              Stack: Reacts, Asure, PostGreSQL Express.js, Axios, HTML, SASS
+              Stack: Reacts, Azure, PostGreSQL Express.js, Axios, HTML, SASS
 
             </div>
 
