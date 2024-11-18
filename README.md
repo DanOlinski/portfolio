@@ -2,6 +2,11 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Deploy to github
+if there is a site deployed on your github, go to settings/pages and remove the deployed website(github only allows 1 website to be deployed). from the terminal run the command `npm run build`, then `npm run deploy`
+after the command runs, wait a bit for the changes to be applied to github and subsequently to view your live website
+
+
 ## Available Scripts
 
 In the project directory, you can run:
