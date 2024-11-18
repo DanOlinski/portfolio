@@ -23,7 +23,7 @@ const topOfPage = () => {
       <div className='f-icons'>
 
         <div className='links'>
-          <a className='a-element' href="https://flowcv.com/resume/k7nvdbtl1r" target="_blank">
+          <a className='a-element' href="https://flowcv.com/resume/vswopup5m5" target="_blank">
             <img className="f-icon f-resume" src="/portfolio/images/resume-w.png"></img>
             Resume
           </a>
@@ -47,7 +47,7 @@ const topOfPage = () => {
       </div>
 
       <div className='text'>
-        daniel.guterres@hotmail.com
+        daniel.olinski@outlook.com
       </div>
       <div className='text'>
         +1(403)618-0269
