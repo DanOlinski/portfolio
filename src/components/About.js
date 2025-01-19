@@ -4,7 +4,7 @@ import "./Content.scss"
 
 export default function About() {
 
-
+//Below is the code for the "about" section of the web app
   return (
     <div className="container">
 

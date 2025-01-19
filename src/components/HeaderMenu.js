@@ -1,6 +1,7 @@
 import * as React from 'react';
 import "./HeaderMenu.scss"
 
+//This is the dropdown menu located in the header
 export default function HeaderMenu() {
   
   return (

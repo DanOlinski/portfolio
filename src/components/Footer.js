@@ -5,7 +5,7 @@ import globalStates from '../hooks/globalStates';
 export default function Footer() {
   const { content, setContent } = globalStates()
 
-//This function will change the content state to 'email', the e-mail component is rendered within a conditional statement that checks if the content state is set to 'email'
+//This function will change the "content" state to 'email', the e-mail component is rendered within a conditional statement that checks if the content state is set to 'email'
 const handelEmailClick = () => {
       setContent('email')
 }

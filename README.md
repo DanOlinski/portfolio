@@ -1,10 +1,27 @@
-# Getting Started with Create React App
+## About
+### This app is a static web page, meant to showcase a product or a portfolio. 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+- Features
+    - User friendly and intuitive front end
+    - Visually appealing in any device
+    - Well commented code for easy customization
+    - User can send e-mails to the admin of the website
+    - Easy to deploy. Check below for instructions on how to deploy website for free from a github account 
 
 ## Deploy to github
-if there is a site deployed on your github, go to settings/pages and remove the deployed website(github only allows 1 website to be deployed). from the terminal run the command `npm run build`, then `npm run deploy`
-after the command runs, wait a bit for the changes to be applied to github and subsequently to view your live website
+- If there is a site already deployed on your github, go to settings/pages and remove the deployed website (for a free github user, you are only allowed to have 1 website deployed). 
+- For your app to work on github, the react project must be in the root directory of the repository folder
+- Go into your `package.json` file 
+    - At the very top add the following: "homepage": "http://<github username>.io/<reporitory name>"
+    - Here is an example: "homepage": "http://DanOlinski.github.io/portfolio"
+    - The link above will be the domain where your website can be viewed 
+- Install the gh-pages dependency: `npm install gh-pages`
+- Go into your `package.json` file, under the "scripts" section place the command below
+    - "predeploy": "npm run build",
+    - "deploy": "gh-pages -d build"
+- Push all of your code to the GitHub repository
+- From the terminal run the command `npm run build`, then `npm run deploy`
+after the command runs, wait a bit for the changes to be applied to github and subsequently to view your live website.
 
 
 ## Available Scripts
@@ -12,64 +29,5 @@ after the command runs, wait a bit for the changes to be applied to github and s
 In the project directory, you can run:
 
 ### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- If you are using WLS it is advised to run any react app using the shell terminal, otherwise you may run into some serious lag while running the react app. Also whenever you change a feature in you app the changes may not be able to visualize in your localhost unless you add some extra code to your `package.json` file or restar the react server at every change.
+- Open [http://localhost:3000] to view the app in your browser.

@@ -3,16 +3,17 @@ import "./Email.scss"
 import globalStates from '../hooks/globalStates';
 import emailjs from '@emailjs/browser';
 
+//The e-mail page can be accessed from 2 different links located in the header and also from a link located in the footer. From this page you can send an e-mail to the admin.
 export default function Email() {
   const { content, setContent } = globalStates()
 
   const form = React.useRef();
 
+  //The function below prevents an e-mail to be sent if any of the 3 input fields are missing (name, e-mail address, message)
   const sendEmail = (e) => {
     e.preventDefault();
 
     if(!e.target.name.value || e.target.name.value === 'Name'){
-      
       return alert('Please fill in The name field')
     }
 
@@ -24,6 +25,7 @@ export default function Email() {
       return alert('Please fill in The message field')
     }
 
+    //This app uses a service called emailjs, visit the website https://www.emailjs.com/ for more details on how to set up your own emailjs account
     else {
       emailjs
       .sendForm('service_b6tfmg4', 'template_pdsqpxd', form.current, {
@@ -42,6 +44,7 @@ export default function Email() {
     
   };
 
+  //content is a state, this state determines if the e-mail button was clicked in order to display the e-mail page.
   const renderForm = () => {
    if(content === 'email'){
     return (
