@@ -64,7 +64,7 @@ export default function Projects() {
                   Link to repository
                 </a>
 
-                <a className="projects-text-link" href="http://http://3.17.80.182:8000/" target="_blank">
+                <a className="projects-text-link" href="http://3.17.80.182:8000" target="_blank">
                   Link to website
                 </a>
                 
