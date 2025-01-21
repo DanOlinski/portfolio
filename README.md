@@ -9,7 +9,7 @@
     - Easy to deploy. Check below for instructions on how to deploy website for free from a github account 
 
 ## Deploy to github
-- If there is a site already deployed on your github, go to settings/pages and remove the deployed website (for a free github user, you are only allowed to have 1 website deployed). 
+- If there is a site already deployed on your github, go to settings/pages and remove the deployed website (for a free github user, you are only allowed to have 1 website deployed)(you can skip this step and deploy a site erasing the existing one). 
 - For your app to work on github, the react project must be in the root directory of the repository folder
 - Go into your `package.json` file 
     - At the very top add the following: "homepage": "http://<github username>.io/<reporitory name>"

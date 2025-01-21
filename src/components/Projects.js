@@ -63,9 +63,13 @@ export default function Projects() {
                 <a className="projects-text-link" href="https://github.com/DanOlinski/schedulerApp" target="_blank">
                   Link to repository
                 </a>
+
+                <a className="projects-text-link" href="https://github.com/DanOlinski/schedulerApp" target="_blank">
+                  Link to website
+                </a>
                 
                 <div className="projects-text">
-                  Fullstack application. Presents a list of week days. For each day there are slots where a user can book an appointment (provided the slot is available).
+                  Fullstack application, deployed in aws. Presents a list of week days. For each day there are slots where a user can book an appointment (provided the slot is available).
                   <div className="text-paragraph">.</div>
                   To create an appointment, the user types in their name and selects one of the available interviewers.
                   <div className="text-paragraph">.</div>
