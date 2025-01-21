@@ -21,7 +21,7 @@
     - "deploy": "gh-pages -d build"
 - Push all of your code to the GitHub repository
 - From the terminal run the command `npm run build`, then `npm run deploy`
-after the command runs, wait a bit for the changes to be applied to github and subsequently to view your live website.
+after the command runs, wait a bit for the changes to be applied to github and subsequently to view your live website. (you can also type: `npm run deploy` and skip the `npm run build` command)
 
 
 ## Available Scripts
