@@ -104,7 +104,7 @@ export default function Header() {
           <div onClick={handelProjectsClick} className='dropdown-options'>Projects</div> */}
           <div className='dropdown-line'></div>
           <div onClick={closeMenu} className='dropdown-options'>
-            <a className='a-element' href="https://flowcv.com/resume/vswopup5m5" target="_blank">
+            <a className='a-element' href="/portfolio/resume.jpg" target="_blank">
               <img className="icon-list" src="/portfolio/images/resume-w.png" alt='image'></img>
               Resume
             </a>
@@ -118,7 +118,7 @@ export default function Header() {
           </div>
           <div className='dropdown-line'></div>
           <div onClick={closeMenu} className='dropdown-options'>
-            <a className='a-element' href="https://www.linkedin.com/in/daniel-olinski-guterres-6542a550/" target="_blank">
+            <a className='a-element' href="https://www.linkedin.com/in/daniel-olinski/" target="_blank">
               <img className="icon-list" src="/portfolio/images/linkedin-w.png"></img>
               Linkedin
             </a>
@@ -144,10 +144,10 @@ export default function Header() {
 
         <div className='icons'>
 
-          <a href="https://flowcv.com/resume/vswopup5m5" target="_blank">
+          <a href="/portfolio/resume.jpg" target="_blank">
             <img className="icon resume" src="/portfolio/images/resume.png"></img>
           </a>
-          <a href="https://www.linkedin.com/in/daniel-olinski-guterres-6542a550/" target="_blank">
+          <a href="https://www.linkedin.com/in/daniel-olinski/" target="_blank">
             <img className="icon linkedin" src="/portfolio/images/linkedin.png"></img>
           </a>
           <a href="https://github.com/DanOlinski" target="_blank">

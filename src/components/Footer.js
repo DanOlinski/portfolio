@@ -23,13 +23,13 @@ const topOfPage = () => {
       <div className='f-icons'>
 
         <div className='links'>
-          <a className='a-element' href="https://flowcv.com/resume/vswopup5m5" target="_blank">
+          <a className='a-element' href="/portfolio/resume.jpg" target="_blank">
             <img className="f-icon f-resume" src="/portfolio/images/resume-w.png"></img>
             Resume
           </a>
         </div>
         <div className='links'>
-          <a className='a-element' href="https://www.linkedin.com/in/daniel-olinski-guterres-6542a550/" target="_blank">
+          <a className='a-element' href="https://www.linkedin.com/in/daniel-olinski/" target="_blank">
             <img className="f-icon f-linkedin" src="/portfolio/images/linkedin-w.png"></img>
             Linkedin
           </a>

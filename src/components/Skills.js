@@ -181,7 +181,13 @@ export default function Skills() {
             <div className="vert-subcontainer-group-inner">
   
             Dev Environments:
-  
+
+            <div className="vert-subcontainer-line"></div>
+            <div className="vert-subcontainer-item">
+              <img className="vert-subcontainer-image" src="/portfolio/images/logos/aws.png"></img>
+              AWS
+            </div>
+
             <div className="vert-subcontainer-line"></div>
             <div className="vert-subcontainer-item">
               <img className="vert-subcontainer-image" src="/portfolio/images/logos/linux.png"></img>

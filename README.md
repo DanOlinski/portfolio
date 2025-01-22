@@ -12,7 +12,7 @@
 - If there is a site already deployed on your github, go to settings/pages and remove the deployed website (for a free github user, you are only allowed to have 1 website deployed)(you can skip this step and deploy a site erasing the existing one). 
 - For your app to work on github, the react project must be in the root directory of the repository folder
 - Go into your `package.json` file 
-    - At the very top add the following: "homepage": "http://<github username>.io/<reporitory name>"
+    - At the very top add the following: "homepage": "http://<github username>.github.io/<reporitory name>"
     - Here is an example: "homepage": "http://DanOlinski.github.io/portfolio"
     - The link above will be the domain where your website can be viewed 
 - Install the gh-pages dependency: `npm install gh-pages`
@@ -30,4 +30,5 @@ In the project directory, you can run:
 
 ### `npm start`
 - If you are using WLS it is advised to run any react app using the shell terminal, otherwise you may run into some serious lag while running the react app. Also whenever you change a feature in you app the changes may not be able to visualize in your localhost unless you add some extra code to your `package.json` file or restar the react server at every change.
+- Make sure you are using Node version 16
 - Open [http://localhost:3000] to view the app in your browser.
