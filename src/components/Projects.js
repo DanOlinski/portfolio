@@ -22,36 +22,7 @@ export default function Projects() {
             <div className="tittle-text">Projects</div>
             <div className="tittle-line-projects"></div>
           </div>
-    
-          <div className="vert-subcontainer-group">
-            <div className="vert-subcontainer-group-inner">
-              <div className="projects-container">
-    
-                Budget
-    
-                <div className="vert-subcontainer-line"></div>
-    
-                <a className="projects-text-link" href="https://github.com/DanOlinski/Budget" target="_blank">
-                  Link to repository
-                </a>
-    
-                <div className="projects-text">
-                  Track spending and more, from any bank account.
-                  <div className="text-paragraph">.</div>
-                  When the user swipes a card, in about 3 seconds the spending information is added to the app.
-                  <div className="text-paragraph">.</div>
-                  Stack: Reacts, Azure, PostGreSQL Express.js, Axios, HTML, SASS
-    
-                </div>
-    
-                <img className="projects-image" src="/portfolio/images/projects/budget/pieChartSpending.png"></img>
-    
-                <img className="projects-image" src="/portfolio/images/projects/budget/Categories.png"></img>
-    
-              </div>
-            </div>
-          </div>
-    
+
           <div className="vert-subcontainer-group">
             <div className="vert-subcontainer-group-inner">
               <div className="projects-container">
@@ -85,6 +56,71 @@ export default function Projects() {
               </div>
             </div>
           </div>
+
+          <div className="vert-subcontainer-group">
+            <div className="vert-subcontainer-group-inner">
+              <div className="projects-container">
+    
+                Budget
+    
+                <div className="vert-subcontainer-line"></div>
+    
+                <a className="projects-text-link" href="https://github.com/DanOlinski/Budget" target="_blank">
+                  Link to repository
+                </a>
+    
+                <div className="projects-text">
+                  Track spending and more, from any bank account.
+                  <div className="text-paragraph">.</div>
+                  When the user swipes a card, in about 3 seconds the spending information is added to the app.
+                  <div className="text-paragraph">.</div>
+                  Stack: Reacts, Azure, PostGreSQL Express.js, Axios, HTML, SASS
+    
+                </div>
+    
+                <img className="projects-image" src="/portfolio/images/projects/budget/pieChartSpending.png"></img>
+    
+                <img className="projects-image" src="/portfolio/images/projects/budget/Categories.png"></img>
+    
+              </div>
+            </div>
+          </div>
+
+          <div className="vert-subcontainer-group">
+            <div className="vert-subcontainer-group-inner">
+              <div className="projects-container">
+    
+              Portfolio
+    
+                <div className="vert-subcontainer-line"></div>
+    
+                <a className="projects-text-link" href="https://github.com/DanOlinski/portfolio" target="_blank">
+                  Link to repository
+                </a>
+
+                <a className="projects-text-link" href="https://danolinski.github.io/portfolio/" target="_blank">
+                  Link to website
+                </a>
+    
+                <div className="projects-text">
+                This app is a static web page, meant to showcase a product or a portfolio. 
+                  <div className="text-paragraph">.</div>
+                  - Features:
+                    <br></br>- User friendly and intuitive front end
+                    <br></br>- Visually appealing in any device
+                    <br></br>- Well commented code for easy customization
+                    <br></br>- User can send e-mails to the admin of the website
+                    <br></br>- Easy to deploy. Check instructions in README file from within the repository on how to deploy this website
+                  <div className="text-paragraph">.</div>
+                  Stack: Node v16, React, emailjs, gh-pages
+                </div>
+    
+                <img className="projects-image" src="/portfolio/images//projects/portfolio/Capture.PNG"></img>
+    
+              </div>
+            </div>
+            
+          </div>
     
           <div className="vert-subcontainer-group">
             <div className="vert-subcontainer-group-inner">
@@ -101,9 +137,9 @@ export default function Projects() {
                 <div className="projects-text">
                   A fullstack WordPress CRUD app where a user can add notes and sketches.
                   <div className="text-paragraph">.</div>
-                  There are ACFs where an editor with access to the wp-admin user can add images that show up below the notes. The editor can also change the footer info (date when the page was last updated).
+                  There are ACFs where an editor with access to the wp-admin user can add images that show up below the notes.
                   <div className="text-paragraph">.</div>
-                  This app also includes SEO/schema
+                  This app includes an SEO/schema
                   <div className="text-paragraph">.</div>
                   Stack: php, WordPress, WebPack, SASS, HTML, Ajax, jQuery, VanilaJavascript, Docker, MySQL, PhpMyAdmin
     
@@ -169,41 +205,7 @@ export default function Projects() {
             
           </div>
 
-          <div className="vert-subcontainer-group">
-            <div className="vert-subcontainer-group-inner">
-              <div className="projects-container">
-    
-              Portfolio
-    
-                <div className="vert-subcontainer-line"></div>
-    
-                <a className="projects-text-link" href="https://github.com/DanOlinski/portfolio" target="_blank">
-                  Link to repository
-                </a>
 
-                <a className="projects-text-link" href="https://danolinski.github.io/portfolio/" target="_blank">
-                  Link to website
-                </a>
-    
-                <div className="projects-text">
-                This app is a static web page, meant to showcase a product or a portfolio. 
-                  <div className="text-paragraph">.</div>
-                  - Features:
-                    <br></br>- User friendly and intuitive front end
-                    <br></br>- Visually appealing in any device
-                    <br></br>- Well commented code for easy customization
-                    <br></br>- User can send e-mails to the admin of the website
-                    <br></br>- Easy to deploy. Check instructions in README file from within the repository on how to deploy this website
-                  <div className="text-paragraph">.</div>
-                  Stack: Node v16, React, emailjs, gh-pages
-                </div>
-    
-                <img className="projects-image" src="/portfolio/images//projects/portfolio/Capture.PNG"></img>
-    
-              </div>
-            </div>
-            
-          </div>
 
           <div className="tittle-close" onClick={handelClick}>Close</div>
         </div>
