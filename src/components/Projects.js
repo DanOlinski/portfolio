@@ -68,6 +68,10 @@ export default function Projects() {
                 <a className="projects-text-link" href="https://github.com/DanOlinski/Budget" target="_blank">
                   Link to repository
                 </a>
+
+                <a className="projects-text-link" href="https://drive.google.com/file/d/1-i8MmTTnpAM7Bnz_Ej4XI7BVFdliY-vu/view?usp=drivesdk" target="_blank">
+                  Link to app presentation
+                </a>
     
                 <div className="projects-text">
                   Track spending and more, from any bank account.
