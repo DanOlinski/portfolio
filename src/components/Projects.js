@@ -107,7 +107,7 @@ export default function Projects() {
                 </a>
     
                 <div className="projects-text">
-                This app is a static web page, meant to showcase a product or a portfolio. 
+                This app is used to showcase a product or a personal portfolio. 
                   <div className="text-paragraph">.</div>
                   - Features:
                     <br></br>- User friendly and intuitive front end
