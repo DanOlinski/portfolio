@@ -137,7 +137,11 @@ export default function Projects() {
                 <a className="projects-text-link" href="https://github.com/DanOlinski/Scribble" target="_blank">
                   Link to repository
                 </a>
-    
+
+                <a className="projects-text-link" href="http://18.234.204.90:8000/" target="_blank">
+                  Link to website
+                </a>
+
                 <div className="projects-text">
                   A fullstack WordPress CRUD app where a user can add notes and sketches.
                   <div className="text-paragraph">.</div>
