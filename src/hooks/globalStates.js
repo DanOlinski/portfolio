@@ -17,11 +17,11 @@ const globalStates = create((set) => ({
     },
     
     //the states bellow control expanding and collapsing sections in the website
-    projects: true,
+    projects: false,
     setProjects: (newData) => {
       set(()=>({projects: newData}))
     },
-    skills: true,
+    skills: false,
     setSkills: (newData) => {
       set(()=>({skills: newData}))
     },
