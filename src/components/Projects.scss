@@ -6,6 +6,9 @@
     align-items: center;
 }
 
+.project-tittle{
+    cursor: pointer;
+}
 .projects-text{
    
     
@@ -39,10 +42,19 @@
     border-radius: 10px;
     margin-top: 18px;
     margin-bottom: 18px;
+
+    &-closed{
+        width: 800px;
+        margin-top: 0px;
+        margin-bottom: -23px;
+    }
 }
 
 @media (max-width:940px){
     .projects-image{
+        width:700px;
+    }
+    .projects-image-closed{
         width:700px;
     }
     .projects-text{
@@ -54,6 +66,9 @@
     .projects-image{
         width:600px;
     }
+    .projects-image-closed{
+        width:600px;
+    }
     .projects-text{
         width: 450px;
     }
@@ -63,14 +78,17 @@
     .projects-image{
         width:500px;
     }
+    .projects-image-closed{
+        width:500px;
+    }
     .projects-text{
         width: 350px;
     }
 }
 
 @media (max-width:650px){
-    .projects-image{
-        width: 350px;
+    .projects-image-closed{
+        width:500px;
     }
     .projects-text{
         width: 300px;
@@ -79,6 +97,9 @@
 
 @media (max-width:450px){
     .projects-image{
+        width: 300px;
+    }
+    .projects-image-closed{
         width: 300px;
     }
     .projects-text{
@@ -90,6 +111,9 @@
     .projects-image{
         width: 250px;
     }
+    .projects-image-closed{
+        width: 250px;
+    }
     .projects-text{
         width: 250px;
     }
@@ -97,6 +121,9 @@
 
 @media (max-width:360px){
     .projects-image{
+        width: 240px;
+    }
+    .projects-image-closed{
         width: 240px;
     }
     .projects-text{
@@ -108,6 +135,9 @@
     .projects-image{
         width: 220px;
     }
+    .projects-image-closed{
+        width: 220px;
+    }
     .projects-text{
         width: 220px;
     }
@@ -117,6 +147,9 @@
     .projects-image{
         width: 200px;
     }
+    .projects-image-closed{
+        width: 200px;
+    }
     .projects-text{
         width: 200px;
     }
@@ -124,6 +157,9 @@
 
 @media (max-width:300px){
     .projects-image{
+        width: 180px;
+    }
+    .projects-image-closed{
         width: 180px;
     }
     .projects-text{

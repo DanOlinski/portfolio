@@ -16,14 +16,38 @@ const globalStates = create((set) => ({
       set(()=>({content: newData}))
     },
     
+    //the states bellow control expanding and collapsing sections in the website
     projects: true,
     setProjects: (newData) => {
       set(()=>({projects: newData}))
     },
-
     skills: true,
     setSkills: (newData) => {
       set(()=>({skills: newData}))
+    },
+    schedulerApp: false,
+    setSchedulerApp: (newData) => {
+      set(()=>({schedulerApp: newData}))
+    },
+    budget: false,
+    setBudget: (newData) => {
+      set(()=>({budget: newData}))
+    },
+    portfolio: false,
+    setPortfolio: (newData) => {
+      set(()=>({portfolio: newData}))
+    },
+    scribble: false,
+    setScribble: (newData) => {
+      set(()=>({scribble: newData}))
+    },
+    expressJs: false,
+    setExpressJs: (newData) => {
+      set(()=>({expressJs: newData}))
+    },
+    jsAlgorithms: false,
+    setJsAlgorithms: (newData) => {
+      set(()=>({jsAlgorithms: newData}))
     }
     
   }))
