@@ -65,7 +65,7 @@ export default function Projects() {
     
                 <div className="vert-subcontainer-line"></div>
     
-                <a className="projects-text-link" href="https://github.com/DanOlinski/Budget" target="_blank">
+                <a className="projects-text-link" href="https://drive.google.com/file/d/1-i8MmTTnpAM7Bnz_Ej4XI7BVFdliY-vu/view?usp=sharing" target="_blank">
                   Link to repository
                 </a>
 
@@ -98,11 +98,11 @@ export default function Projects() {
     
                 <div className="vert-subcontainer-line"></div>
     
-                <a className="projects-text-link" href="https://github.com/DanOlinski/portfolio" target="_blank">
+                <a className="projects-text-link" href="https://github.com/DanOlinski/portfolio-template" target="_blank">
                   Link to repository
                 </a>
 
-                <a className="projects-text-link" href="https://danolinski.github.io/portfolio/" target="_blank">
+                <a className="projects-text-link" href="http://52.6.162.128:3000" target="_blank">
                   Link to website
                 </a>
     
