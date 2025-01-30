@@ -25,7 +25,7 @@ export default function Budget() {
     
                 <div className="vert-subcontainer-line"></div>
     
-                <a className="projects-text-link" href="https://drive.google.com/file/d/1-i8MmTTnpAM7Bnz_Ej4XI7BVFdliY-vu/view?usp=sharing" target="_blank">
+                <a className="projects-text-link" href="https://github.com/DanOlinski/Budget" target="_blank">
                   Link to repository
                 </a>
 
