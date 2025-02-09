@@ -190,15 +190,15 @@
 }
 
 @media (max-width:373px){
-  .menu-icon{
-    position: relative;
-    left: -264px;
-    top: 210px;
-  }
+  // .menu-icon{
+    // position: relative;
+    // left: -264px;
+    // top: 210px;
+  // }
 
   .dropdown{
     left: -314px;
-    top: 201px;
+    top: 31px;
   }
 
   .icons{
@@ -208,8 +208,8 @@
       display: flex;
       flex-wrap: wrap;
       position: relative;
-      top: 206px;
-      left: 35px;
+      // top: 206px;
+      left: -30px;
   
   }
 }
