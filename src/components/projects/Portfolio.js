@@ -30,7 +30,7 @@ export default function Portfolio() {
                   Link to repository
                 </a>
 
-                <a className="projects-text-link" href="http://52.6.162.128:3000" target="_blank">
+                <a className="projects-text-link" href="http://98.82.9.144:3000" target="_blank">
                   Link to website
                 </a>
     

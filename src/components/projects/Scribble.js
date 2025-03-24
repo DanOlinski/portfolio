@@ -30,7 +30,7 @@ export default function Scribble() {
                   Link to repository
                 </a>
 
-                <a className="projects-text-link" href="http://54.158.56.227:8000/" target="_blank">
+                <a className="projects-text-link" href="http://44.204.238.202:8000/" target="_blank">
                   Link to website
                 </a>
 
