@@ -44,7 +44,7 @@ export default function Portfolio() {
                     <br></br>- User can send e-mails to the admin of the website
                     <br></br>- Easy to deploy. Check instructions in README file from within the repository on how to deploy this website
                   <div className="text-paragraph">.</div>
-                  Stack: Node v16, React, emailjs, gh-pages
+                  Stack: NodeJS v16, React, emailjs, gh-pages
                 </div>
     
                 <img className="projects-image" src="/portfolio/images//projects/portfolio/Capture.PNG"></img>

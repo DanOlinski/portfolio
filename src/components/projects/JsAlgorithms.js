@@ -31,11 +31,11 @@ export default function JsAlgorithms() {
                 </a>
     
                 <div className="projects-text">
-                This is an npm library package containing general purpose javascript algorithms that can be installed and used when creating javascript applications.
+                This is an npm library package containing general purpose JavaScript algorithms that can be installed and used when creating JavaScript applications.
                   <div className="text-paragraph">.</div>
-                  The goal of this npm package is to eliminating extra work when developing js applications. Inspired on the [Lodash](https://lodash.com) library.
+                  The goal of this npm package is to eliminating extra work when developing JS applications. Inspired on the [Lodash](https://lodash.com) library.
                   <div className="text-paragraph">.</div>
-                  Stack: Node v 16, Chai, Mocha
+                  Stack: NodeJS v 16, Chai, Mocha
                 </div>
     
                 <img className="projects-image" src="/portfolio/images//projects/jsAlgorythms/Capture.PNG"></img>

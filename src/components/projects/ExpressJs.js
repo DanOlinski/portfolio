@@ -21,7 +21,7 @@ export default function ExpressJs() {
               <div className="projects-container" >
     
               <div className="project-tittle" onClick={handelClickExpressJs}>
-              Express JS Server Template
+              ExpressJS Server Template
                 </div>
     
                 <div className="vert-subcontainer-line"></div>
@@ -31,11 +31,11 @@ export default function ExpressJs() {
                 </a>
     
                 <div className="projects-text">
-                A ready to use ExpressJs server template with a PostgreSQL database.
+                A ready to use ExpressJS server template with a PostgreSQL database.
                   <div className="text-paragraph">.</div>
                   This backend server can be used to add a database to any application, making the production of fullstack apps more straight forward and less time consuming. Setting it up is easy due to great documentation and thorough testing.
                   <div className="text-paragraph">.</div>
-                  Stack: Axios, Dotenv, ejs, ExpressJs, Morgan, pg, Nodemon
+                  Stack: Axios, Dotenv, ejs, ExpressJS, Morgan, pg, Nodemon
     
                 </div>
     
@@ -56,7 +56,7 @@ export default function ExpressJs() {
           <div className="projects-container" >
 
           <div className="project-tittle" onClick={handelClickExpressJs}>
-          Express JS Server Template
+          ExpressJS Server Template
             </div>
 
             <div className="vert-subcontainer-line"></div>

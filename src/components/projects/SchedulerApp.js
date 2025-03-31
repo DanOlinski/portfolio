@@ -35,7 +35,7 @@ export default function SchedulerApp() {
                 </a>
                 
                 <div className="projects-text">
-                  Fullstack application, deployed in aws. Presents a list of week days. For each day there are slots where a user can book an appointment (provided the slot is available).
+                  Fullstack application, deployed in AWS. Presents a list of week days. For each day there are slots where a user can book an appointment (provided the slot is available).
                   <div className="text-paragraph">.</div>
                   To create an appointment, the user types in their name and selects one of the available interviewers.
                   <div className="text-paragraph">.</div>

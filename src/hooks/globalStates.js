@@ -25,6 +25,10 @@ const globalStates = create((set) => ({
     setSkills: (newData) => {
       set(()=>({skills: newData}))
     },
+    about: false,
+    setAbout: (newData) => {
+      set(()=>({about: newData}))
+    },
     schedulerApp: false,
     setSchedulerApp: (newData) => {
       set(()=>({schedulerApp: newData}))

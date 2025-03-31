@@ -38,7 +38,7 @@ export default function Budget() {
                   <div className="text-paragraph">.</div>
                   When the user swipes a card, in about 3 seconds the spending information is added to the app.
                   <div className="text-paragraph">.</div>
-                  Stack: Reacts, Azure, PostGreSQL Express.js, Axios, HTML, SASS
+                  Stack: React, Azure, PostgreSQL ExpressJS, Axios, HTML, SASS
     
                 </div>
     

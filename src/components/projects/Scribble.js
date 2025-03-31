@@ -39,9 +39,9 @@ export default function Scribble() {
                   <div className="text-paragraph">.</div>
                   There are ACFs where an editor with access to the wp-admin user can add images that show up below the notes.
                   <div className="text-paragraph">.</div>
-                  This app includes an SEO/schema
+                  This app includes SEO
                   <div className="text-paragraph">.</div>
-                  Stack: php, WordPress, WebPack, SASS, HTML, Ajax, jQuery, VanilaJavascript, Docker, MySQL, PhpMyAdmin
+                  Stack: PHP, WordPress, WebPack, SASS, HTML, Ajax, jQuery, VanillaJS, Docker, PhpMyAdmin
     
                 </div>
     
