@@ -1,6 +1,7 @@
 import React from "react";
 import "./About.scss"
 import "./Content.scss"
+import globalStates from '../hooks/globalStates';
 
 export default function About() {
   const { about, setAbout } = globalStates()
