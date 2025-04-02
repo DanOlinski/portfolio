@@ -51,29 +51,28 @@
 
 .menu-composite{
   display: flex;
-      flex-direction: column;
-      margin-top: -44px;
-      position: absolute;
-      right: -15px;
+  flex-direction: column;
 }
 
 .dropdown {
-  position: absolute;
-  top: 80px;
-  right: 51px;
-  width: 145px;
-  /* max-width: 146px; */
+  position: relative;
+  top: -28px;
+  right: 47px;
+  min-width: 100px;
   z-index: 1;
+  
   box-shadow: 10px 8px 16px 0px rgba(0, 0, 0, 0.51);
-  border-color: rgba(240, 248, 255, 0.1294117647);
+  border-color: #f0f8ff21;
   border-width: 2px;
   border-style: solid;
   border-radius: 2px;
-  background-color: rgba(41, 44, 45, 0.9294117647);
+  background-color: #292c2ded;
+  
   animation-name: menu-options;
   animation-duration: 10s;
 
-    
+    animation-name: menu-options;
+        animation-duration: 10s;
 
   &-line{
     width: 91%;
@@ -103,7 +102,6 @@
   cursor: pointer;
   margin: 32px;
   margin-right: 47px;
-  // margin-right: -3px;
   margin-top: 20px;
 
   // margin-left: 25px;
@@ -139,43 +137,80 @@
     
 }
 
+/*tablet and smartphone layout*/
+@media (max-width:940px){
+
+  .menu-icon{
+    position: relative;
+    left: -309px;
+  }
+
+  .dropdown{
+    left: -275px;
+  }
+}
 .icon-list{
   width: 15px;
   height: 13px;
   margin-right: 5px;
 }
 
+@media (max-width:702px){
 
-
-@media (max-width:766px){
   .menu-icon{
-    
-    margin-right: -3px;
-  }
-  .menu-composite{
     position: relative;
-    top: 30px;
-    right: 3px;
-
+    left: -208px;
   }
 
   .dropdown{
-    right: -96px;
-    
+    left: -174px;
   }
- 
-}
-
-
-
-@media (max-width:578px){
-  .dropdown{
-    right: -5px;
-    top: 129px;
+  .icon-list{
+    width: 15px;
+    height: 13px;
+    margin-right: 5px;
+  }
+  .icons{
+    margin-left: 31px;
   }
 }
 
 
+@media (max-width:440px){
+  .dropdown{
+    left: -215px;
+  }
+}
 
+@media (max-width:400px){
+  .dropdown{
+    left: -239px;
+    top: 10px;
+  }
+}
 
+@media (max-width:373px){
+  // .menu-icon{
+    // position: relative;
+    // left: -264px;
+    // top: 210px;
+  // }
+
+  .dropdown{
+    left: -314px;
+    top: 31px;
+  }
+
+  .icons{
+    height: 69px;
+      min-width: 73px;
+      max-width: 73px;
+      display: flex;
+      flex-wrap: wrap;
+      position: relative;
+      // top: 206px;
+      left: -30px;
+  
+  }
+}
 

@@ -3,7 +3,7 @@ import "./Footer.scss"
 import globalStates from '../hooks/globalStates';
 
 export default function Footer() {
-  const { content, setContent, setResume } = globalStates()
+  const { content, setContent } = globalStates()
 
 //This function will change the "content" state to 'email', the e-mail component is rendered within a conditional statement that checks if the content state is set to 'email'
 const handelEmailClick = () => {
@@ -12,11 +12,6 @@ const handelEmailClick = () => {
 
 const topOfPage = () => {
   window.scrollTo(0,0)
-}
-
-const resumeState =()=>{
-  window.scrollTo(0,0)
-  setResume(true)
 }
 
   return (
@@ -28,10 +23,10 @@ const resumeState =()=>{
       <div className='f-icons'>
 
         <div className='links'>
-          <div className='a-element' onClick={resumeState}>
+          <a className='a-element' href="/portfolio/resume.jpg" target="_blank">
             <img className="f-icon f-resume" src="/portfolio/images/resume-w.png"></img>
             Resume
-          </div>
+          </a>
         </div>
         <div className='links'>
           <a className='a-element' href="https://www.linkedin.com/in/daniel-olinski/" target="_blank">

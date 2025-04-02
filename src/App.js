@@ -8,7 +8,8 @@ import Footer from "./components/Footer";
 function App() {
 
   return (
-    <div className='main-div'>
+    <div className='main-div bg'>
+      {/* <div className='bg'></div> */}
       <Header />
       <Content />
       <Email />

@@ -58,15 +58,17 @@ export default function Budget() {
     
 
         <div className="vert-subcontainer-group">
-        <div className="vert-subcontainer-group-inner vert-subcontainer-group-inner-closed" onClick={handelClickBudget}>
+        <div className="vert-subcontainer-group-inner" onClick={handelClickBudget}>
           <div className="projects-container" >
 
-          <div className="projects-image-closed">
-          <div className="vert-subcontainer-line-closed"></div>
-          <div className="project-tittle project-tittle-short" >Budget</div>
-          <div className="vert-subcontainer-line-closed"></div>
-          </div>
-            
+          <div className="project-tittle" >
+            Budget
+            </div>
+
+            <div className="vert-subcontainer-line"></div>
+
+            <div className="projects-text"></div>
+            <img className="projects-image-closed"></img>
 
           </div>
         </div>

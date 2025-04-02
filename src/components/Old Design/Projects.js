@@ -19,53 +19,22 @@ import JsAlgorithms from "./projects/JsAlgorithms";
 
 //This section is rendered inside the "Content" component, it contains all of the projects for the portfolio
 export default function Projects() {
-  const { projects, setProjects, setReflectionProjects, reflectionProjects } = globalStates()
+  const { projects, setProjects } = globalStates()
 
     //when the text is clicked change the state to "true" or "false". This state is used to expand or collapse this component.
     const handelClickProjects = () => {
       setProjects(!projects)
     }
 
-    const reflectionStateTrue = () => {
-      setReflectionProjects(true)
-    }
-    const reflectionStateFalse = () => {
-      setReflectionProjects(false)
-    }
-    const reflectionAnimation =()=>{
-      if(reflectionProjects){
-        return(
-          <>
-          <div className="reflection reflection-projects reflection-projects-animation"></div>
-          <div className="tittle-closed" >
-            {/* <div className="tittle-line-projects"></div> */}
-            <div className="tittle-text">Projects</div>
-            {/* <div className="tittle-line-projects"></div> */}
-          </div>
-          </>
-        )
-      }else{
-        return(
-          <>
-          <div className="reflection reflection-projects"></div>
-          <div className="tittle-closed" >
-            {/* <div className="tittle-line-projects"></div> */}
-            <div className="tittle-text">Projects</div>
-            {/* <div className="tittle-line-projects"></div> */}
-          </div>
-          </>
-        )
-      }
-    }
-
     //depending on the value of the state "projects" the app will render a collapsed component or a expanded component
     if(projects){
       return (
     
-        <div className="container-projects">
+        <div className="container">
     
           <div className="tittle" onClick={handelClickProjects}>
             <div className="tittle-text">Projects</div>
+            <div className="tittle-line-projects"></div>
           </div>
 
 
@@ -86,11 +55,13 @@ export default function Projects() {
     if(!projects){
       return (
     
-        <div className="container-closed" onClick={handelClickProjects} onMouseEnter={reflectionStateTrue} onMouseLeave={reflectionStateFalse}>
-
-          {reflectionAnimation()}
-
-
+        <div className="container-closed" onClick={handelClickProjects}>
+    
+          <div className="tittle" >
+            {/* <div className="tittle-line-projects"></div> */}
+            <div className="tittle-text">Projects</div>
+            <div className="tittle-line-projects"></div>
+          </div>
     
         </div>
       );

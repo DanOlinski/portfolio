@@ -2,54 +2,102 @@ import React from "react";
 import "./About.scss"
 import "./Content.scss"
 import globalStates from '../hooks/globalStates';
+import AboutContent from "./AboutContent";
 
 export default function About() {
-  const { about, setAbout } = globalStates()
+  const { about, setAbout, projects, skills, setReflectionAbout, reflectionAbout } = globalStates()
 
     //when the text is clicked change the state to "true" or "false". This state is used to expand or collapse this component.
     const handelClick = () => {
       setAbout(!about)
     }
 
+    const reflectionStateTrue = () => {
+      setReflectionAbout(true)
+      // console.log(reflectionAbout)
+    }
+    const reflectionStateFalse = () => {
+      setReflectionAbout(false)
+      // console.log(reflectionAbout)
+    }
+    const reflectionAnimation =()=>{
+      if(reflectionAbout){
+        return(
+          <>
+          <div className="reflection reflection-about reflection-about-animation"></div>
+          <div className="tittle-closed" >
+            <div className="tittle-text">About</div>
+          </div>
+          </>
+        )
+      }else{
+        return(
+          <>
+          <div className="reflection reflection-about"></div>
+          <div className="tittle-closed" >
+            <div className="tittle-text">About</div>
+          </div>
+          </>
+        )
+      }
+    }
+
 //Below is the code for the "about" section of the web app
 
 if(about){
-  return (
-    <div className="container">
-
-      <div className="tittle" onClick={handelClick}>
-        <div className="tittle-text">About</div>
-        <div className="tittle-line-about"></div>
-      </div>
-
-
-      <div className="about-text">
-      <div className="vert-subcontainer-group-inner">
-      Hi, I am Daniel Olinski G., experienced fullstack software developer with a background in engineering. 
-      <div className="text-paragraph">.</div>
-      I am motivated and detail-oriented with demonstrated experience in designing, developing and maintaining software systems. 
-      <div className="text-paragraph">.</div>
-      I am committed to deliver high-quality results. My main assets are backend debugging, UX, UI and team collaboration.
-</div>
-</div>
-<div className="tittle-close" onClick={handelClick}>Close</div>
-    </div>
-  );
+ if(projects){
+      return(
+        <div className="container-projects">
+    <AboutContent/>
+        </div>)
+    }else{
+      return(
+        <div className="container">
+    <AboutContent/>
+        </div>)
+    }
 }
 
 if(!about){
-  return (
-    <div className="container">
+  
 
-      <div className="tittle" onClick={handelClick}>
-        <div className="tittle-text">About</div>
-        <div className="tittle-line-skills"></div>
+  if(projects){
+    return (
+      <div className="container-closed-shifted" onClick={handelClick}>
+  <div className="reflection-about"></div>
+        <div className="tittle-closed" >
+          {/* <div className="tittle-line"></div> */}
+          <div className="tittle-text">About</div>
+          {/* <div className="tittle-line"></div> */}
+        </div>
+  
+  
+  
+  
       </div>
+    );
+  }else if(skills){
+    
+      return (
+        <div className="container-closed-long" onClick={handelClick} >
+        <div className="tittle-closed" >
+          {/* <div className="tittle-line"></div> */}
+          <div className="tittle-text">About</div>
+          {/* <div className="tittle-line"></div> */}
+        </div>
+   
 
+        </div>
+      );
+    
+  }else{
+    return (
+      <div className="container-closed" onClick={handelClick} onMouseEnter={reflectionStateTrue} onMouseLeave={reflectionStateFalse}>
+   {reflectionAnimation()}
+      </div>
+    );
+  }
 
-
-
-    </div>
-  );
+  
 }
 }

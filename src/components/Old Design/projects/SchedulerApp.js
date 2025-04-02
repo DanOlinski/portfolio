@@ -59,15 +59,17 @@ export default function SchedulerApp() {
       return (
 
         <div className="vert-subcontainer-group">
-        <div className="vert-subcontainer-group-inner vert-subcontainer-group-inner-closed" onClick={handelClickSchedulerApp}>
+        <div className="vert-subcontainer-group-inner" onClick={handelClickSchedulerApp}>
           <div className="projects-container" >
 
-            
-            <div className="projects-image-closed">
-            <div className="vert-subcontainer-line-closed"></div>
-            <div className="project-tittle project-tittle-short" >Scheduler App</div>
-            <div className="vert-subcontainer-line-closed"></div>
+            <div className="project-tittle" >
+            Scheduler App
             </div>
+
+            <div className="vert-subcontainer-line"></div>
+            
+            <div className="projects-text"></div>
+            <img className="projects-image-closed"></img>
 
 
           </div>

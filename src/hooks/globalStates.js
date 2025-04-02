@@ -52,6 +52,22 @@ const globalStates = create((set) => ({
     jsAlgorithms: false,
     setJsAlgorithms: (newData) => {
       set(()=>({jsAlgorithms: newData}))
+    },
+    reflectionProjects: false,
+    setReflectionProjects: (newData) => {
+      set(()=>({reflectionProjects: newData}))
+    },
+    reflectionSkills: false,
+    setReflectionSkills: (newData) => {
+      set(()=>({reflectionSkills: newData}))
+    },
+    reflectionAbout: false,
+    setReflectionAbout: (newData) => {
+      set(()=>({reflectionAbout: newData}))
+    },
+    resume: false,
+    setResume: (newData) => {
+      set(()=>({resume: newData}))
     }
     
   }))

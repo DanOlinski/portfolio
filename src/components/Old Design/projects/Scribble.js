@@ -59,15 +59,18 @@ export default function Scribble() {
       return (
     
         <div className="vert-subcontainer-group">
-        <div className="vert-subcontainer-group-inner vert-subcontainer-group-inner-closed" onClick={handelClickScribble}>
+        <div className="vert-subcontainer-group-inner" onClick={handelClickScribble}>
           <div className="projects-container" >
 
-          <div className="projects-image-closed">
-          <div className="vert-subcontainer-line-closed"></div>
-          <div className="project-tittle project-tittle-short" >Scribble</div>
-          <div className="vert-subcontainer-line-closed"></div>
-          </div>
-           
+          <div className="project-tittle" >
+          Scribble
+            </div>
+
+            <div className="vert-subcontainer-line"></div>
+
+            <div className="projects-text"></div>
+            <img className="projects-image-closed"></img>
+
           </div>
         </div>
       </div>
