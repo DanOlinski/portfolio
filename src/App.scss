@@ -28,3 +28,14 @@ body {
         background-image: url(../public/images/bg2.png);
     }
 }
+
+@media(max-width:400px){
+    .bg{
+        background-image: url(../public/images/bg3.png);
+    }
+}
+@media(max-width:351px){
+    .bg{
+        background-image: url(../public/images/bg4.png);
+    }
+}
