@@ -95,6 +95,11 @@ export default function Header() {
     setDropDown(false);
   };
 
+  const closeMenuAndResumeState=()=>{
+    setResume(true)
+    setDropDown(false);
+  }
+
   //if the dropDown state is true this function will render the dropdown menu. else it will not
   const renderDropDownMenu = () => {
     if (dropDown) {
@@ -108,28 +113,31 @@ export default function Header() {
           {/* <div className='dropdown-line'></div>
           <div onClick={handelProjectsClick} className='dropdown-options'>Projects</div> */}
           <div className='dropdown-line'></div>
-          <div onClick={closeMenu} className='dropdown-options'>
 
-            <div className='a-element' onClick={resumeState}>
+
+          <div onClick={closeMenuAndResumeState} className='dropdown-options'>
+
+
+            <div className='a-element' >
               <img className="icon-list" src="/portfolio/images/resume-w.png" alt='image'></img>
               Resume
             </div>
 
           </div>
           <div className='dropdown-line'></div>
-          <div onClick={closeMenu} className='dropdown-options'>
-            <a className='a-element' href="https://github.com/DanOlinski" target="_blank">
+
+            <a className='a-element dropdown-options' href="https://github.com/DanOlinski" target="_blank" onClick={closeMenu}>
               <img className="icon-list" src="/portfolio/images/github-w.png"></img>
               Github
             </a>
-          </div>
           <div className='dropdown-line'></div>
-          <div onClick={closeMenu} className='dropdown-options'>
-            <a className='a-element' href="https://www.linkedin.com/in/daniel-olinski/" target="_blank">
+        
+          {/* <div onClick={closeMenu} className='dropdown-options'> */}
+            <a className='a-element dropdown-options' href="https://www.linkedin.com/in/daniel-olinski/" target="_blank" onClick={closeMenu}>
               <img className="icon-list" src="/portfolio/images/linkedin-w.png"></img>
               Linkedin
             </a>
-          </div>
+          {/* </div> */}
           <div className='dropdown-line'></div>
           <div onClick={handelEmailClick} className='dropdown-options'>
             <img className="icon-list" src="/portfolio/images/email-w.png"></img>
