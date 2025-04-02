@@ -1,5 +1,6 @@
 -For some reason if I place a PDF inside the public folder then run "npm run deploy" the process will fail, because of the PDF file in the public folder
 
--To work around this run the deploy command without the pdf in the public folder. When the process is complete, manually place the PDF file in the build folder, then run "git add .", "git commit -m'info'", "git push origin master"
+-To work around this run the deploy command without the pdf in the public folder. 
+-Keep build folder open and ready to paste the PDF file
+-As soon as the images folder dissapeares and appears again, paste the PDF file in the build folder
 
-the steps above will update the public folder in the git repository and the PDF download will work
