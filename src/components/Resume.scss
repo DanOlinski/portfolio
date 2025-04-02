@@ -1,14 +1,15 @@
 
 
 .resumeContainer{
-    position: absolute;
-    margin-top: 20px;
-    margin-left: 61px;
-    margin-right: 61px;
+    position: fixed;
+    // margin-top: 20px;
+    margin-left: 6px;
+    margin-right: 6px;
     z-index: 10;
     /* left: 149px; */
-    /* top: 27px; */
-    width: -webkit-fill-available;
+    top: 10px;
+    // width: -webkit-fill-available;
+    display: grid;
     /* height: 500px; */
     
     // border-color: rgba(163, 167, 170, 0.9);
@@ -20,10 +21,16 @@
 
 }
 .scrollContainer{
-    height: 80vh;
-    overflow: scroll;
-    scrollbar-width: none;
-    // background-color: white;
+    height: 86vh;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    // scrollbar-width: none;
+    scrollbar-width: thin;
+    padding-right: 40px;
+    padding-left: 40px;
+    background-color: white;
+
+      
 }
 
 .resumeHeader{
@@ -67,7 +74,8 @@
 }
 
 .resumePic{
-    width: -webkit-fill-available;
+    // width: -webkit-fill-available;
+    width: 100%;
     // margin-top: 50px;
     margin-bottom: -5px;
 }
@@ -79,14 +87,7 @@
     height: 29px;
 }
 
-@media(max-width:766px){
-    
-    .resumeContainer{
-        margin-top: 20px;
-        margin-left: 40px;
-        margin-right: 40px;
-    }
-}
+
 @media(max-width:572px){
     .exitButton{
         margin-right: -2px;
@@ -105,7 +106,9 @@
         height: 49px;
     }
 }
+
 @media(max-width:450px){
+
     .resumeContainer{
         margin-top: unset; 
      margin-left: unset; 
@@ -131,5 +134,12 @@
     }
     .resumeHeader{
         height: 38px;
+    }
+}
+
+@media(max-width:428px){
+    .scrollContainer {
+        height: unset;
+        padding-bottom: 10px;
     }
 }

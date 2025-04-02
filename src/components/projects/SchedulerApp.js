@@ -64,9 +64,9 @@ export default function SchedulerApp() {
 
             
             <div className="projects-image-closed">
-            <div className="vert-subcontainer-line-closed"></div>
-            <div className="project-tittle project-tittle-short" >Scheduler App</div>
-            <div className="vert-subcontainer-line-closed"></div>
+            {/* <div className="vert-subcontainer-line-closed"></div> */}
+            <div className="project-tittle" >Scheduler App</div>
+            {/* <div className="vert-subcontainer-line-closed"></div> */}
             </div>
 
 

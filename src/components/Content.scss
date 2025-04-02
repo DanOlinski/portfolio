@@ -19,6 +19,7 @@
     margin-top: 60px; 
     margin-left: 126px;
     margin-right: 126px;
+    
 
     &-projects{
         display: flex;
@@ -31,6 +32,7 @@
     // border-radius: 16px;
     padding: 30px;
     margin-top: 60px; 
+    box-shadow: -4px 8px 16px 0px rgba(0, 0, 0, 0.1)
     }
 }
 
@@ -50,12 +52,12 @@
     overflow: hidden;
     border-color: #ffffff00;
         border-style: solid;
-    &:hover{
-        animation-name: button-hover;
-        animation-duration: 10s;
-        // background-color: #8e8b8b0c;
+    // &:hover{
+    //     animation-name: button-hover;
+    //     animation-duration: 10s;
+    //     // background-color: #8e8b8b0c;
         
-      }
+    //   }
 
       &-shifted{
         // width: 381px;
@@ -107,24 +109,6 @@ margin-right: 126px;
     }
 
 }
-
-@keyframes button-hover {
-    0%   {
-        background-color: rgb(93 93 93);
-        box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-    }
-    10%   {
-        background-color: rgb(84 84 84);
-        box-shadow: 0px 0px 16px 0px rgba(0, 0, 0, 0.17);
-
-    }
-    100%   {
-        background-color: rgb(84 84 84);
-        box-shadow: 0px 0px 16px 0px rgba(0, 0, 0, 0.090);
-
-    }
-    
-  }
 
 .tittle{
     cursor: pointer;
@@ -201,7 +185,7 @@ margin-right: 126px;
         font-weight: bold;
         font-size: 18px;
         margin-top: 0px;
-        max-width: -webkit-fill-available;
+        max-width: 100%;
         
     &-inner{
         padding: 13px;
@@ -214,6 +198,11 @@ margin-right: 126px;
         overflow: hidden;
         &-closed{
             cursor: pointer;
+
+            &:hover {
+                background-color: rgba(231, 244, 255, 0.105);
+            }
+
         }
     }
        
@@ -291,22 +280,25 @@ margin-right: 126px;
     box-shadow: -61px 5px 22px 1px rgba(255, 255, 255, 0.08);
     width: 39px;
     height: 266px;
-    left: 311px;
-    top: 159px;
+    // left: 311px;
+    // top: 159px;
     rotate: -57deg;
     margin-top: -116px;
     // margin-left: -154px;
     
     &-projects{
-        margin-left: -154px;
+        // margin-left: -154px;
+        box-shadow: -303px -373px 25px 8px rgb(255 255 255 / 26%);
+        margin-left: 700px;
 
         &-animation{
             animation-name: pAnimation;
             animation-duration: 10s;
         }
         @keyframes pAnimation {
-            10%   { margin-left: -70px;}
-            100%   { margin-left: -70px;}
+            10%   { margin-left: 764px;}
+            20%   { margin-left: 700px;}
+            100%   { margin-left: 700px;}
           }
 
     }
@@ -318,7 +310,8 @@ margin-right: 126px;
         }
         @keyframes sAnimation {
             10%   { margin-left: 129px;}
-            100%   { margin-left: 129px;}
+            20%   { margin-left: 45px;}
+            100%   { margin-left: 45ppx;}
           }
     }
     &-about{
@@ -329,11 +322,37 @@ margin-right: 126px;
         }
         @keyframes aAnimation {
             10%   { margin-left: 334px;}
-            100%   { margin-left: 334px;}
+            20%   { margin-left: 250px;}
+            100%   { margin-left: 250px;}
           }
     }
-   
+    &-buttonAnimation{
+        animation-name: button-hover;
+        animation-duration: 10s;
+    }
 }
+@keyframes button-hover {
+    0%   {
+        background-color: rgb(93 93 93);
+        box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    }
+    10%   {
+        background-color: rgb(84 84 84);
+        box-shadow: 0px 0px 16px 0px rgba(0, 0, 0, 0.17);
+
+    }
+    20%   {
+        background-color: rgb(93 93 93);
+        box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+
+    }
+    100%   {
+        background-color: rgb(93 93 93);
+        box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+
+    }
+    
+  }
 
 @media (max-width:850px){
     .container-closed{

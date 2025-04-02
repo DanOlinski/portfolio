@@ -62,9 +62,9 @@ export default function Budget() {
           <div className="projects-container" >
 
           <div className="projects-image-closed">
-          <div className="vert-subcontainer-line-closed"></div>
-          <div className="project-tittle project-tittle-short" >Budget</div>
-          <div className="vert-subcontainer-line-closed"></div>
+          {/* <div className="vert-subcontainer-line-closed"></div> */}
+          <div className="project-tittle" >Budget</div>
+          {/* <div className="vert-subcontainer-line-closed"></div> */}
           </div>
             
 

@@ -1,8 +1,13 @@
 body {
-    background-color: rgb(84, 82, 82);
-        // background: linear-gradient(90deg, rgba(84, 82, 82), rgb(34 28 28) 100%);
+    // background-color: rgb(84, 82, 82);
+    // background: linear-gradient(90deg, rgb(93 90 90), rgb(56 55 55) 100%);
+    background: linear-gradient(90deg, rgb(92 91 91), rgb(63 63 63) 100%);
     color: white;
     font-family: sans-serif;
+
+    // display: grid;
+    // overflow-x: hidden;
+    
 }
 
 .main-div{
@@ -11,7 +16,7 @@ body {
     // display: flex;
     // flex-direction: column;
     // background-color: rgba(240, 248, 255, 0);
-    overflow: hidden;
+    // overflow: hidden;
     // align-items: center;
     // height: 100vh;
     // width: 100vh;

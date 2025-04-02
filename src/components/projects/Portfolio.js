@@ -68,9 +68,9 @@ export default function Portfolio() {
           <div className="projects-container" >
 
           <div className="projects-image-closed">
-          <div className="vert-subcontainer-line-closed"></div>
-          <div className="project-tittle project-tittle-short" >Portfolio</div>
-          <div className="vert-subcontainer-line-closed"></div>
+          {/* <div className="vert-subcontainer-line-closed"></div> */}
+          <div className="project-tittle" >Portfolio</div>
+          {/* <div className="vert-subcontainer-line-closed"></div> */}
           </div>
            
 

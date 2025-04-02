@@ -20,7 +20,8 @@ const resumeState =()=>{
 }
 
   return (
-    <div className="footer">
+
+      <div className='footer'>
       <div onClick={topOfPage} className='text-link'>
         Top of page
       </div>
@@ -29,24 +30,24 @@ const resumeState =()=>{
 
         <div className='links'>
           <div className='a-element' onClick={resumeState}>
-            <img className="f-icon f-resume" src="/portfolio/images/resume-w.png"></img>
+            <img className="f-icon f-resume" src="/portfolio/images/resume-o.png"></img>
             Resume
           </div>
         </div>
         <div className='links'>
           <a className='a-element' href="https://www.linkedin.com/in/daniel-olinski/" target="_blank">
-            <img className="f-icon f-linkedin" src="/portfolio/images/linkedin-w.png"></img>
+            <img className="f-icon f-linkedin" src="/portfolio/images/linkedin-o.png"></img>
             Linkedin
           </a>
         </div>
         <div className='links'>
           <a className='a-element' href="https://github.com/DanOlinski" target="_blank">
-            <img className="f-icon f-github" src="/portfolio/images/github-w.png"></img>
+            <img className="f-icon f-github" src="/portfolio/images/github-o.png"></img>
             Github
           </a>
         </div>
         <div onClick={handelEmailClick} className='links'>
-            <img className="f-icon f-email" src="/portfolio/images/email-w.png"></img>
+            <img className="f-icon f-email" src="/portfolio/images/email-o.png"></img>
             email
         </div>
       </div>
@@ -59,5 +60,8 @@ const resumeState =()=>{
       </div>
 
     </div>
+
+
+
   );
 }

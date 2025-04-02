@@ -58,9 +58,9 @@ export default function JsAlgorithms() {
           <div className="projects-container" >
 
           <div className="projects-image-closed">
-          <div className="vert-subcontainer-line-closed"></div>
-          <div className="project-tittle project-tittle-short" >jsAlgorithms</div>
-          <div className="vert-subcontainer-line-closed"></div>
+          {/* <div className="vert-subcontainer-line-closed"></div> */}
+          <div className="project-tittle" >jsAlgorithms</div>
+          {/* <div className="vert-subcontainer-line-closed"></div> */}
           </div>
             
 

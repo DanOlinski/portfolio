@@ -56,9 +56,13 @@ export default function ExpressJs() {
           <div className="projects-container" >
 
           <div className="projects-image-closed">
-          <div className="vert-subcontainer-line-closed"></div>
-          <div className="project-tittle project-tittle-long" >ExpressJS Server Template</div>
-          <div className="vert-subcontainer-line-closed"></div>
+
+          <div className="project-tittle-closed">
+          {/* <div className="vert-subcontainer-line-closed"></div> */}
+          <div className="project-tittle  " >ExpressJS Server Template</div>
+          {/* <div className="vert-subcontainer-line-closed"></div> */}
+          </div>
+          
           </div>
            
 
