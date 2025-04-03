@@ -285,18 +285,18 @@ margin-right: 126px;
 }
 
 .reflection{
-    box-shadow: -61px 5px 22px 1px rgba(255, 255, 255, 0.08);
+    box-shadow: -61px 5px 22px 1px rgb(255 255 255 / 5%);
     width: 39px;
     height: 266px;
     // left: 311px;
     // top: 159px;
-    rotate: -57deg;
+    rotate: -45deg;
     margin-top: -116px;
     // margin-left: -154px;
     
     &-projects{
         // margin-left: -154px;
-        box-shadow: -303px -373px 25px 8px rgb(255 255 255 / 26%);
+        box-shadow: -316px -291px 25px 14px rgb(255 255 255 / 10%);
         margin-left: 700px;
 
         &-animation{
@@ -311,27 +311,28 @@ margin-right: 126px;
 
     }
     &-skills{
-        margin-left: 45px;
+        // margin-left: 45px;
+        margin-left: 62px;
         &-animation{
             animation-name: sAnimation;
             animation-duration: 10s;
         }
         @keyframes sAnimation {
-            10%   { margin-left: 129px;}
-            20%   { margin-left: 45px;}
-            100%   { margin-left: 45ppx;}
+            10%   { margin-left: 146px;}
+            20%   { margin-left: 62px;}
+            100%   { margin-left: 62ppx;}
           }
     }
     &-about{
-        margin-left: 250px;
+        margin-left: 151px;
         &-animation{
             animation-name: aAnimation;
             animation-duration: 10s;
         }
         @keyframes aAnimation {
-            10%   { margin-left: 334px;}
-            20%   { margin-left: 250px;}
-            100%   { margin-left: 250px;}
+            10%   { margin-left: 235px;}
+            20%   { margin-left: 151px;}
+            100%   { margin-left: 151px;}
           }
     }
     &-buttonAnimation{
