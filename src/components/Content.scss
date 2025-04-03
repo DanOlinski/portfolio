@@ -403,6 +403,7 @@ margin-right: 126px;
     .horiz-subcontainer-group-inner{
         display: flex;
                 flex-direction: column;
+                align-items: flex-start;
     }
     .horiz-subcontainer-group-inner-child{
         display: flex;

@@ -76,7 +76,7 @@
     }
 
     
-    &-animationClosed{
+    &-animationOpened{
       // &:hover{
           
         .menu-icon-line{
@@ -91,7 +91,7 @@
       // }
     }
 
-    &-animationOpened{
+    &-animationClosed{
         .menu-icon-line{
           animation-name: menu-icon-opened;
         animation-duration: 1s;

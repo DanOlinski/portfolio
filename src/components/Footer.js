@@ -20,7 +20,9 @@ const resumeState =()=>{
 }
 
   return (
+    <div className='footerBg'>
 
+    
       <div className='footer'>
       <div onClick={topOfPage} className='text-link'>
         Top of page
@@ -60,7 +62,7 @@ const resumeState =()=>{
       </div>
 
     </div>
-
+    </div>
 
 
   );
