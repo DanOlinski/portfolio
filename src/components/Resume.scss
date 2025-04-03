@@ -28,6 +28,7 @@
     scrollbar-width: thin;
     padding-right: 40px;
     padding-left: 40px;
+    padding-top: 30px;
     background-color: white;
 
       
@@ -140,6 +141,7 @@
 @media(max-width:428px){
     .scrollContainer {
         height: unset;
-        padding-bottom: 10px;
+        padding-bottom: 33px;
+        padding-top: 20px;
     }
 }
