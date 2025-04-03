@@ -37,7 +37,7 @@ export default function Portfolio() {
                 <div className="projects-text">
                 This app is used to showcase a product or a personal portfolio. 
                   <div className="text-paragraph">.</div>
-                  - Features:
+                   Features:
                     <br></br>- User friendly and intuitive front end
                     <br></br>- Visually appealing in any device
                     <br></br>- Well commented code for easy customization

@@ -27,7 +27,7 @@ export default function About() {
       <div className="text-paragraph">.</div>
       I am motivated and detail-oriented with demonstrated experience in designing, developing and maintaining software systems. 
       <div className="text-paragraph">.</div>
-      I am committed to deliver high-quality results. My main assets are backend debugging, UX, UI and team collaboration.
+      I am committed to deliver high-quality results. My main assets are backend debugging, UX/UI and team collaboration.
 </div>
 </div>
 <div className="tittle-close" onClick={handelClick}>Close</div>
