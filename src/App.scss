@@ -40,19 +40,22 @@ body {
     }
 }
 
-@media(max-width:775px){
+@media(max-width:760px){
     .bg{
-        background-image: url(../public/images/bg3.png);
+        // background-image: url(../public/images/bg3.png);
+        background-image: unset;
     }
 }
 
 @media(max-width:660px){
     .bg{
-        background-image: url(../public/images/bg4.png);
+        // background-image: url(../public/images/bg4.png);
+        background-image: unset;
     }
 }
 @media(max-width:470px){
     .bg{
-        background-image: url(../public/images/bg5.png);
+        // background-image: url(../public/images/bg5.png);
+        background-image: unset;
     }
 }
