@@ -1,3 +1,12 @@
+@keyframes emailAnimation {
+    0%   { 
+        opacity: 0.4;
+    }
+    100% {
+        opacity: 1;
+    }
+  }
+
 .email-content{
     display: flex;
     justify-content: center;
@@ -5,6 +14,9 @@
     border-radius: 16px;
     padding: 10px;
     margin-top: 68px;
+
+    animation-name: emailAnimation;
+    animation-duration: 1s;
 }
 
 .email-form{
