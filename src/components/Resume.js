@@ -1,6 +1,8 @@
 import * as React from 'react';
 import "./Resume.scss"
 import globalStates from '../hooks/globalStates';
+// this loads the image before the resume component is opened so that the animation of opening the resume component works smoothly
+import image from "../resume.jpg"
 
 export default function Footer() {
   const { resume, setResume } = globalStates()
@@ -9,7 +11,6 @@ export default function Footer() {
     setResume(false)
   }
   const renderResume=()=>{
-    let image = "/portfolio/resume.jpg"
 
     if(resume){
       return(
@@ -39,11 +40,6 @@ export default function Footer() {
       )
     }
 
-    //this loads the image before the resume component is opened so that the animation of opening the resume component works smoothly
-    if(!resume)
-      <div className='preloadResume'>
-        <img className='downloadIcon' src={image}></img>
-      </div>
   }
 
   //----------------
