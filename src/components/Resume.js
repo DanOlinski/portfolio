@@ -9,6 +9,8 @@ export default function Footer() {
     setResume(false)
   }
   const renderResume=()=>{
+    let image = "/portfolio/resume.jpg"
+
     if(resume){
       return(
       <div  className='resumeContainer'>
@@ -30,7 +32,7 @@ export default function Footer() {
       </div>
       
       <div className='scrollContainer'>
-      <img className="resumePic" src="/portfolio/resume.jpg"></img>
+      <img className="resumePic" src={image}></img>
       </div>
 </div>
       </div>
@@ -40,7 +42,7 @@ export default function Footer() {
     //this loads the image before the resume component is opened so that the animation of opening the resume component works smoothly
     if(!resume)
       <div className='preloadResume'>
-        <img className='downloadIcon' src="/portfolio/images/downloadIcon.png"></img>
+        <img className='downloadIcon' src={image}></img>
       </div>
   }
 
