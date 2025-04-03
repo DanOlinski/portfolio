@@ -3,6 +3,7 @@ import "./Skills.scss"
 import "./Content.scss"
 import globalStates from '../hooks/globalStates';
 
+
 //This component displays all of the skills for the portfolio web page
 export default function Skills() {
   const { skills, setSkills } = globalStates()
@@ -267,35 +268,45 @@ export default function Skills() {
       <div className="horiz-subcontainer-group">
       <div className="horiz-subcontainer-group-inner">
 
-        Design:
+      &nbsp; Design
         
         <div className="horiz-subcontainer-group-inner-child">
 
-        <div className="vert-subcontainer-item">
+        <div className="horiz-subcontainer-item">
+
+          <div className="tech">
           <img className="vert-subcontainer-image" src="/portfolio/images/logos/photoshop.png"></img>
           Photoshop
+          </div>
+
         <div className="horiz-subcontainer-line"></div>
         </div>
 
-        <div className="vert-subcontainer-item">
+        <div className="horiz-subcontainer-item">
+        <div className="tech">
           <img className="vert-subcontainer-image" src="/portfolio/images/logos/autodesk.png"></img>
           Autodesk Suite
+        </div>
         <div className="horiz-subcontainer-line"></div>
         </div>
 
-        <div className="vert-subcontainer-item">
+        <div className="horiz-subcontainer-item">
+        <div className="tech">
           <img className="vert-subcontainer-image" src="/portfolio/images/logos/solidworks.png"></img>
           Solid Works
+        </div>
         <div className="horiz-subcontainer-line"></div>
         </div>
 
-        <div className="vert-subcontainer-item">
+        <div className="horiz-subcontainer-item">
+        <div className="tech">
           <img className="vert-subcontainer-image" src="/portfolio/images/logos/msoffice.png"></img>
           Microsoft Suit
+        </div>
         <div className="horiz-subcontainer-line"></div>
         </div>
 
-        <div className="vert-subcontainer-item">
+        <div className="horiz-subcontainer-item">
           . . .
         </div>
 
@@ -306,41 +317,51 @@ export default function Skills() {
       <div className="horiz-subcontainer-group">
       <div className="horiz-subcontainer-group-inner">
 
-        Audio & Video:
+      &nbsp; Audio & Video:
         
         <div className="horiz-subcontainer-group-inner-child">
 
-        <div className="vert-subcontainer-item">
+        <div className="horiz-subcontainer-item">
+        <div className="tech">
           <img className="vert-subcontainer-image" src="/portfolio/images/logos/ableton.png"></img>
           Ableton
+        </div>
         <div className="horiz-subcontainer-line"></div>
         </div>
 
-        <div className="vert-subcontainer-item">
+        <div className="horiz-subcontainer-item">
+        <div className="tech">
           <img className="vert-subcontainer-image" src="/portfolio/images/logos/cubase.png"></img>
           Cubase
+        </div>
         <div className="horiz-subcontainer-line"></div>
         </div>
 
-        <div className="vert-subcontainer-item">
+        <div className="horiz-subcontainer-item">
+        <div className="tech">
           <img className="vert-subcontainer-image" src="/portfolio/images/logos/spire.png"></img>
           Spire
+        </div>
         <div className="horiz-subcontainer-line"></div>
         </div>
 
-        <div className="vert-subcontainer-item">
+        <div className="horiz-subcontainer-item">
+        <div className="tech">
           <img className="vert-subcontainer-image" src="/portfolio/images/logos/serum.png"></img>
           Serum
+        </div>
         <div className="horiz-subcontainer-line"></div>
         </div>
 
-        <div className="vert-subcontainer-item">
+        <div className="horiz-subcontainer-item">
+        <div className="tech">
           <img className="vert-subcontainer-image" src="/portfolio/images/logos/adobe.png"></img>
           Adobe Suite
-        <div className="horiz-subcontainer-line"></div>
+        </div>
+        <div className="horiz-subcontainer-line horiz-subcontainer-line"></div>
         </div>
 
-        <div className="vert-subcontainer-item">
+        <div className="horiz-subcontainer-item">
           . . .
         </div>
 
