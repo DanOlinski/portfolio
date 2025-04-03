@@ -1,8 +1,9 @@
 import * as React from 'react';
-import "./Resume.scss"
+import "./Resume.scss";
 import globalStates from '../hooks/globalStates';
+import resumePdf from  '../Daniel Olinski G. - Resume.pdf';
 // this loads the image before the resume component is opened so that the animation of opening the resume component works smoothly
-import image from "../resume.jpg"
+import image from "../resume.jpg";
 
 export default function Footer() {
   const { resume, setResume } = globalStates()
@@ -24,7 +25,7 @@ export default function Footer() {
         <div className='close close-stem2'></div>
         </div>
 
-        <a  href="/portfolio/Daniel Olinski G. - Resume.pdf" download>
+        <a  href={resumePdf} download>
         
         <img className='downloadIcon' src="/portfolio/images/downloadIcon.png"></img>
 
