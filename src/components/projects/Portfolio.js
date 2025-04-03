@@ -37,14 +37,16 @@ export default function Portfolio() {
                 <div className="projects-text">
                 This app is used to showcase a product or a personal portfolio. 
                   <div className="text-paragraph">.</div>
+                  <br></br>
                    Features:
-                    <br></br>- User friendly and intuitive front end
-                    <br></br>- Visually appealing in any device
-                    <br></br>- Well commented code for easy customization
-                    <br></br>- User can send e-mails to the admin of the website
+                    <br></br>- User friendly and intuitive front end<br></br>
+                    <br></br>- Visually appealing in any device<br></br>
+                    <br></br>- Well commented code for easy customization<br></br>
+                    <br></br>- User can send e-mails to the admin of the website<br></br>
                     <br></br>- Easy to deploy. Check instructions in README file from within the repository on how to deploy this website
+                    
                   <div className="text-paragraph">.</div>
-                  Stack: NodeJS v16, React, emailjs, gh-pages
+                  <br></br>Stack: NodeJS v16, React, emailjs, gh-pages
                 </div>
     
                 <img className="projects-image" src="/portfolio/images//projects/portfolio/capture.jpg"></img>
