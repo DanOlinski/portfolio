@@ -1,4 +1,10 @@
-
+.preloadResume{
+    opacity: 0;
+    z-index: 0;
+    width: 0;
+    height: 0;
+    overflow: hidden;
+}
 
 .resumeContainer{
     position: fixed;

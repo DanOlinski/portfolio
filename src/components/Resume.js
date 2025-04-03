@@ -36,6 +36,12 @@ export default function Footer() {
       </div>
       )
     }
+
+    //this loads the image before the resume component is opened so that the animation of opening the resume component works smoothly
+    if(!resume)
+      <div className='preloadResume'>
+        <img className='downloadIcon' src="/portfolio/images/downloadIcon.png"></img>
+      </div>
   }
 
   //----------------
@@ -75,7 +81,6 @@ export default function Footer() {
   //----------------
   return (
     <>
-    
     {renderResume()}
     </>
   );
