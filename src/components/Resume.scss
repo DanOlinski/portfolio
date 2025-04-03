@@ -2,24 +2,35 @@
 
 .resumeContainer{
     position: fixed;
-    // margin-top: 20px;
     margin-left: 6px;
     margin-right: 6px;
     z-index: 10;
-    /* left: 149px; */
-    top: 10px;
-    // width: -webkit-fill-available;
     display: grid;
-    /* height: 500px; */
     
-    // border-color: rgba(163, 167, 170, 0.9);
-    // border-style: solid;
-    // box-shadow: 10px 8px 16px 0px rgba(0, 0, 0, 0.13);
-    animation-name: resumeContainer;
-    animation-duration: 50000s;
+    top: 10px;
+    overflow: unset;
+    max-height: unset;
+
+
+    animation-name: resumeContainerAnimation;
+    animation-duration: 2s;
    
 
 }
+@keyframes resumeContainerAnimation {
+    0%   { 
+        overflow: hidden;
+        top: 96px;
+        max-height: 0%;
+        opacity: 0.3;
+    }
+    30% {
+        max-height: 100%;
+        top: 10px;
+        opacity: 1;
+    }
+  }
+
 .scrollContainer{
     height: 73vh;
     padding-bottom: 20px;
@@ -34,6 +45,8 @@
 
       
 }
+
+
 
 .resumeHeader{
     position: relative;
