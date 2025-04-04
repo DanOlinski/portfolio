@@ -268,7 +268,7 @@ export default function Skills() {
       <div className="horiz-subcontainer-group">
       <div className="horiz-subcontainer-group-inner">
 
-      &nbsp; Design
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Design
         
         <div className="horiz-subcontainer-group-inner-child">
 
@@ -317,7 +317,7 @@ export default function Skills() {
       <div className="horiz-subcontainer-group">
       <div className="horiz-subcontainer-group-inner">
 
-      &nbsp; Audio & Video:
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Audio & Video:
         
         <div className="horiz-subcontainer-group-inner-child">
 
