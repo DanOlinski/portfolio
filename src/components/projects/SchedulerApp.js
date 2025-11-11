@@ -30,7 +30,7 @@ export default function SchedulerApp() {
                   Link to repository
                 </a>
 
-                <a className="projects-text-link" href="http://54.89.216.37:8000" target="_blank">
+                <a className="projects-text-link" href="http://3.140.217.34:8000" target="_blank">
                   Link to website
                 </a>
                 
