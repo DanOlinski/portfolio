@@ -3,6 +3,7 @@ import "./Content.scss"
 import Skills from "./Skills"
 import About from "./About"
 import Projects from "./Projects"
+import SiteDown from "./SiteDown"
 import globalStates from '../hooks/globalStates';
 
 //The "Content" section contains everything that is under the header and above the footer
@@ -21,6 +22,7 @@ export default function Content() {
           <Projects />
           <Skills />
           <About />
+          <SiteDown />
 
         </div>
             )

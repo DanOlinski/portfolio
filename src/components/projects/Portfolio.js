@@ -3,13 +3,16 @@ import globalStates from '../../hooks/globalStates';
 
 //This section is rendered inside the "Projects" component.
 export default function Portfolio() {
-  const { portfolio, setPortfolio } = globalStates()
+  const { portfolio, setPortfolio, setSiteDown, siteDown } = globalStates()
 
     //when the text is clicked change the state to "true" or "false". This state is used to expand or collapse this component.
 
     const handelClickPortfolio = () => {
       setPortfolio(!portfolio)
     }
+    // const handelClickSiteDown = () => {
+    //   setSiteDown(!siteDown)
+    // }
 
     //depending on the value of the state the app will render a collapsed component or a expanded component
     if(portfolio){
@@ -30,9 +33,12 @@ export default function Portfolio() {
                   Link to repository
                 </a>
 
-                <a className="projects-text-link" href="http://98.82.9.144:3000" target="_blank">
+                <a className="projects-text-link" href="http://3.145.160.71:3000" target="_blank">
                   Link to website
                 </a>
+                {/* <div className="projects-text-link" onClick={handelClickSiteDown}>
+                  Link to website
+                </div> */}
     
                 <div className="projects-text">
                 This app is used to showcase a product or a personal portfolio. 

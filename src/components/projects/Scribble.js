@@ -3,14 +3,16 @@ import globalStates from '../../hooks/globalStates';
 
 //This section is rendered inside the "Projects" component.
 export default function Scribble() {
-  const { scribble, setScribble } = globalStates()
+  const { scribble, setScribble, setSiteDown, siteDown } = globalStates()
 
     //when the text is clicked change the state to "true" or "false". This state is used to expand or collapse this component.
     
     const handelClickScribble = () => {
       setScribble(!scribble)
     }
-   
+       const handelClickSiteDown = () => {
+      setSiteDown(!siteDown)
+    }
     //depending on the value of the state the app will render a collapsed component or a expanded component
     if(scribble){
       return (
@@ -30,9 +32,12 @@ export default function Scribble() {
                   Link to repository
                 </a>
 
-                <a className="projects-text-link" href="http://34.201.138.241:8000/" target="_blank">
+                {/* <a className="projects-text-link" href="http://34.201.138.241:8000/" target="_blank">
                   Link to website
-                </a>
+                </a> */}
+                <div className="projects-text-link" onClick={handelClickSiteDown}>
+                  Link to website
+                </div>
 
                 <div className="projects-text">
                   A fullstack WordPress CRUD app where a user can add notes and sketches.

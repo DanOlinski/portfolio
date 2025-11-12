@@ -68,6 +68,10 @@ const globalStates = create((set) => ({
     resume: false,
     setResume: (newData) => {
       set(()=>({resume: newData}))
+    },
+    siteDown: false,
+    setSiteDown: (newData) => {
+      set(()=>({siteDown: newData}))
     }
     
   }))
