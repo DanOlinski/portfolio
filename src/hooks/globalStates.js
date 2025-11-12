@@ -69,10 +69,35 @@ const globalStates = create((set) => ({
     setResume: (newData) => {
       set(()=>({resume: newData}))
     },
-    siteDown: false,
+    siteDown: 'startState',
     setSiteDown: (newData) => {
       set(()=>({siteDown: newData}))
+    },
+    urlValidation: null,
+    setUrlValidation: (newData) => {
+      set(()=>({urlValidation: newData}))
+    },
+    loading: false,
+    setLoading: (newData) => {
+      set(()=>({loading: newData}))
+    },
+    click: false,
+    setClick: (newData) => {
+      set(()=>({click: newData}))
+    },
+
+  
+    url: null,
+    setUrl: (newData) => {
+      set(()=>({url: newData}))
+    },
+    url2: null,
+    setUrl2: (newData) => {
+      set(()=>({url2: newData}))
     }
+
+
+    
     
   }))
   

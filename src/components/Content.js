@@ -4,6 +4,7 @@ import Skills from "./Skills"
 import About from "./About"
 import Projects from "./Projects"
 import SiteDown from "./SiteDown"
+import Loading from "./Loading"
 import globalStates from '../hooks/globalStates';
 
 //The "Content" section contains everything that is under the header and above the footer
@@ -17,8 +18,7 @@ export default function Content() {
 
         <div className="content">
 
-        
-          
+          <Loading />
           <Projects />
           <Skills />
           <About />

@@ -81,7 +81,10 @@ export default function DropdownMenu() {
         </div>
 
         <div className='dropdown' ref={menuRef}>
-          <div onClick={handelHomeClick} className='dropdown-options'>Home</div>
+          <div onClick={handelHomeClick} className='dropdown-options'>
+            <img className="icon-list" src="/portfolio/images/house-icon.png" alt='image'></img>
+            Home
+          </div>
           {/* the commented out code below is only if Projects section is placed after Skills section */}
           {/* <div className='dropdown-line'></div>
           <div onClick={handelProjectsClick} className='dropdown-options'>Projects</div> */}

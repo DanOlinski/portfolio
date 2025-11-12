@@ -9,11 +9,11 @@ export default function SiteDown() {
   const { resume, setResume, siteDown, setSiteDown } = globalStates()
 
   const closeSiteDown=()=>{
-    setSiteDown(false)
+    setSiteDown('close')
   }
   const renderSiteDown=()=>{
 
-    if(siteDown){
+    if(siteDown === 'open'){
       return(
       <div  className='siteDownContainer'>
 
@@ -37,7 +37,7 @@ export default function SiteDown() {
       {/* <img className="siteDownIcon" src={image}></img> */}
       <img className='siteDownIcon' src="/portfolio/images/server-maintenance-icon.png"></img>
       <div>
-      Sorry, the application you are trying to open is currently offline
+      Sorry, the application you are trying to open is currently offline.
       <p></p>
       The cause of this is an offline AWS server.
       <p></p>
@@ -70,7 +70,7 @@ export default function SiteDown() {
     
     if (!siteDownRef.current.contains(e.target)) {
       
-      setSiteDown(false);
+      setSiteDown('close');
     }
   
   }
@@ -89,8 +89,8 @@ export default function SiteDown() {
   
   //----------------
   return (
-    <>
+    <div className='mainContainer'>
     {renderSiteDown()}
-    </>
+    </div>
   );
 }
