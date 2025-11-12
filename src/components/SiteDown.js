@@ -39,11 +39,11 @@ export default function SiteDown() {
       <div>
       Sorry, the application you are trying to open is currently offline
       <p></p>
-      The cause if this is an offline AWS server.
+      The cause of this is an offline AWS server.
       <p></p>
-      This issue is being addressed
+      This issue is being addressed.
       <p></p>
-      Meanwhile, you can check the website repository link for more info on the app you are trying to inspect.
+      Meanwhile, you can check the website's repository link for more info on the app you are trying to inspect.
       </div>
       </div>
 </div>
