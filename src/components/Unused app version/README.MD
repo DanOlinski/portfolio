@@ -1,2 +1,3 @@
 The code in this folder has the functionality of checking if the website the client is trying to open is online bofore redirecting the client to the intended end point. This functionality is important because I am serving my websites in AWS and not paying for it wich lasts for about 3 months.
 There is an issue though, I host the portfolio website in github and github does not allow for API requests (the method used to check if the desired end point is working before redirecting the client to it). So I removed this functionality from the main app, but saved the functionality in this folder so that I can use it in the future in case I dicide to.
+for this app to work you need to intall axios; npm i axios@1.4.0

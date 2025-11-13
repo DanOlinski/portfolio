@@ -1,6 +1,5 @@
 import React, { useEffect, useRef } from "react";
 import globalStates from '../../hooks/globalStates';
-import axios from "axios";
 
 //This section is rendered inside the "Projects" component.
 export default function Portfolio() {
