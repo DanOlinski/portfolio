@@ -3,7 +3,7 @@ import "./Footer.scss"
 import globalStates from '../hooks/globalStates';
 
 export default function Footer() {
-  const { content, setContent } = globalStates()
+  const { content, setContent, setResume } = globalStates()
 
 //This function will change the "content" state to 'email', the e-mail component is rendered within a conditional statement that checks if the content state is set to 'email'
 const handelEmailClick = () => {
@@ -14,8 +14,16 @@ const topOfPage = () => {
   window.scrollTo(0,0)
 }
 
+const resumeState =()=>{
+  window.scrollTo(0,0)
+  setResume(true)
+}
+
   return (
-    <div className="footer">
+    <div className='footerBg'>
+
+    
+      <div className='footer'>
       <div onClick={topOfPage} className='text-link'>
         Top of page
       </div>
@@ -23,25 +31,25 @@ const topOfPage = () => {
       <div className='f-icons'>
 
         <div className='links'>
-          <a className='a-element' href="/portfolio/resume.jpg" target="_blank">
-            <img className="f-icon f-resume" src="/portfolio/images/resume-w.png"></img>
+          <div className='a-element' onClick={resumeState}>
+            <img className="f-icon f-resume" src="/portfolio/images/resume-o.png"></img>
             Resume
-          </a>
+          </div>
         </div>
         <div className='links'>
           <a className='a-element' href="https://www.linkedin.com/in/daniel-olinski/" target="_blank">
-            <img className="f-icon f-linkedin" src="/portfolio/images/linkedin-w.png"></img>
+            <img className="f-icon f-linkedin" src="/portfolio/images/linkedin-o.png"></img>
             Linkedin
           </a>
         </div>
         <div className='links'>
           <a className='a-element' href="https://github.com/DanOlinski" target="_blank">
-            <img className="f-icon f-github" src="/portfolio/images/github-w.png"></img>
+            <img className="f-icon f-github" src="/portfolio/images/github-o.png"></img>
             Github
           </a>
         </div>
         <div onClick={handelEmailClick} className='links'>
-            <img className="f-icon f-email" src="/portfolio/images/email-w.png"></img>
+            <img className="f-icon f-email" src="/portfolio/images/email-o.png"></img>
             email
         </div>
       </div>
@@ -54,5 +62,8 @@ const topOfPage = () => {
       </div>
 
     </div>
+    </div>
+
+
   );
 }

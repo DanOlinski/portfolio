@@ -52,17 +52,19 @@ export default function ExpressJs() {
       return (
  
         <div className="vert-subcontainer-group">
-        <div className="vert-subcontainer-group-inner" onClick={handelClickExpressJs}>
+        <div className="vert-subcontainer-group-inner  vert-subcontainer-group-inner-closed" onClick={handelClickExpressJs}>
           <div className="projects-container" >
 
-          <div className="project-tittle" >
-          ExpressJS Server Template
-            </div>
+          <div className="projects-image-closed">
 
-            <div className="vert-subcontainer-line"></div>
-
-<div className="projects-text"></div>
-<img className="projects-image-closed"></img>
+          <div className="project-tittle-closed">
+          {/* <div className="vert-subcontainer-line-closed"></div> */}
+          <div className="project-tittle  " >ExpressJS Server Template</div>
+          {/* <div className="vert-subcontainer-line-closed"></div> */}
+          </div>
+          
+          </div>
+           
 
           </div>
         </div>

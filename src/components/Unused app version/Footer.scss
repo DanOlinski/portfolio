@@ -1,21 +1,34 @@
+.footerBg{
+
+  // background-image: url(../../public/images/bg-fabric.png);
+  background: linear-gradient(90deg, rgb(92 91 91), rgb(63 63 63) 100%);
+  // opacity: 0.6;
+  // height: 114px;
+  // width: 50px;
+  // background-color: rgba(0, 0, 0, 0.88);
+}
+
 .footer{
-  background-image: url(../../public/images/bg-fabric.png);
-  background-color: rgba(0, 0, 0, 0.88);
-  height: 114px;
+  // background-color: rgba(0, 0, 0, 0.88);
+  // background-color: rgb(0 0 0 / 15%);
+  // background-color: rgb(93, 93, 93);
+  background-color: rgb(29 29 29 / 31%);
+
   display: flex;
-  /* padding-left: 153px; */
-  /* margin-top: 136px; */
-  /* box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2); */
-  margin-left: -10px;
+
+  
+  
+  // margin-left: -10px;
   flex-direction: column;
   align-items: center;
   padding: 18px;
   justify-content: center;
   align-self: bottom;
-  // position: absolute;
   bottom: 0px;
-  // width: 97%;
   margin-top: 60px;
+
+  // color: black;
+  color: #cdb7a0;
 
 }
 
@@ -32,27 +45,9 @@
     width: 16px;
 }
 
-.f-linkedin{
-  // position: relative;
-  // top: 21px;
-  // left: 43px;
-}
-
-.f-github{
-  // position: relative;
-  // top: -15px;
-  // left: 40px;
-}
-
 .f-email{
   margin-top: 4.5px;
   height: 13px;
-}
-
-.f-resume{
-  // position: relative;
-  // top: -15px;
-  // left: 82px;
 }
 
 .links{
@@ -97,9 +92,6 @@
 
 /*tablet and smartphone layout*/
 @media (max-width:700px){
-  .footer{
-    // height: 310px;
-  }
 
   .f-icons{
     left: -318px;
