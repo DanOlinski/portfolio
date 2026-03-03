@@ -11,7 +11,6 @@ function App() {
   return (
     <>
     <div className='bg'>
-      jhgjhgj
       <Resume />
       <Header />
       <Content />

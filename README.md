@@ -19,9 +19,21 @@
 - Go into your `package.json` file, under the "scripts" section place the command below
     - "predeploy": "npm run build",
     - "deploy": "gh-pages -d build"
-- Push all of your code to the GitHub repository
-- From the terminal run the command `npm run build`, then `npm run deploy`
-after the command runs, wait a bit for the changes to be applied to github and subsequently to view your live website. (you can also type: `npm run deploy` and skip the `npm run build` command)
+
+- The next steps will be different if you are deploying the website from WLS or Linux machine:
+    - for Linux machiene;
+        - Push all of your code to the GitHub repository
+        - From the terminal run the command `npm run deploy`
+
+    - For WSL machine:
+        - npm run deploy doesn't work here
+        - make sure you are on gh-pages branch (run; `git branch` to check)
+        - make sure that you repo is deploying the website from gh-pages branch (go to gitHub website / your repository / settings / pages. There you can set the branch from where your website will be deployed)
+        - run the command `npm run build`
+        - coppy build files to your online repo; `Copy-Item -Path build/* -Destination . -Recurse -Force`
+        - upload the branch changes to your repo; `git add . --ignore-errors` then `git commit -m "Update site"` then `git push origin gh-pages`
+        - these steps are automated in the file `deploy.ps1` to run this file run the code; `.\deploy.ps1`
+after the command runs, wait a bit for the changes to be applied to github and subsequently to view your live website.
 
 
 ## Available Scripts
