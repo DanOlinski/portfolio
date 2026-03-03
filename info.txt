@@ -1,0 +1,7 @@
+axios is uninstalled
+axios code is not activated in the Loading.js file
+resume pdf code removed from Resume.js file
+pdf file removed from src folder
+pdf file removed from public folder
+emptied out build folder
+removed psd file from public folder
