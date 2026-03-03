@@ -1,10 +1,6 @@
-axios is uninstalled
-axios code is not activated in the Loading.js file
-resume pdf code removed from Resume.js file
-pdf file removed from src folder
+make sure I'm on gh pages branch (run; git branch)
+npm run build
 
-emptied out build folder
-removed psd file from public folder
-
---------try------------
-
+Copy build files over: cp -r -f build/* .
+Add & commit: git add . then git commit -m "Update site"
+Push: git push origin gh-pages
