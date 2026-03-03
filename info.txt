@@ -1,6 +1,12 @@
 make sure I'm on gh pages branch (run; git branch)
 npm run build
 
-Copy build files over: cp -r -f build/* .
+Copy build files over: Copy-Item -Path build/* -Destination . -Recurse -Force
 Add & commit: git add . then git commit -m "Update site"
 Push: git push origin gh-pages
+
+
+
+----------------------------
+git reset --hard
+npm run deploy
