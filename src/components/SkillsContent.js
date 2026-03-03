@@ -82,6 +82,56 @@ export default function Skills() {
         </div>
       </div>
 
+      <div className="vert-subcontainer-group">
+        <div className="vert-subcontainer-group-inner">
+
+        Dev Environments:
+
+        <div className="vert-subcontainer-line"></div>
+        <div className="vert-subcontainer-item">
+          <img className="vert-subcontainer-image" src="/portfolio/images/logos/aws.png"></img>
+          AWS
+        </div>
+
+        <div className="vert-subcontainer-line"></div>
+        <div className="vert-subcontainer-item">
+          <img className="vert-subcontainer-image" src="/portfolio/images/logos/linux.png"></img>
+          Linux
+        </div>
+
+        <div className="vert-subcontainer-line"></div>
+        <div className="vert-subcontainer-item">
+          <img className="vert-subcontainer-image" src="/portfolio/images/logos/wsl.png"></img>
+          WSL
+        </div>
+
+        <div className="vert-subcontainer-line"></div>
+        <div className="vert-subcontainer-item">
+          <img className="vert-subcontainer-image" src="/portfolio/images/logos/macOs.png"></img>
+          MacOS
+        </div>
+
+        <div className="vert-subcontainer-line"></div>
+        <div className="vert-subcontainer-item">
+          <img className="vert-subcontainer-image" src="/portfolio/images/logos/docker.png"></img>
+          Docker
+        </div>
+
+        <div className="vert-subcontainer-line"></div>
+        <div className="vert-subcontainer-item">
+          <img className="vert-subcontainer-image" src="/portfolio/images/logos/nodejs.png"></img>
+          NodeJs
+        </div>
+
+         <div className="vert-subcontainer-line"></div>
+        <div className="vert-subcontainer-item">
+          <img className="vert-subcontainer-image" src="/portfolio/images/logos/claudeAi.png"></img>
+          Claude AI
+        </div>
+        
+        </div>
+      </div>
+
     <div className="vert-subcontainer-group">
         <div className="vert-subcontainer-group-inner">
 
@@ -93,11 +143,11 @@ export default function Skills() {
           JavaScript
         </div>
 
-        <div className="vert-subcontainer-line"></div>
+        {/* <div className="vert-subcontainer-line"></div>
         <div className="vert-subcontainer-item">
           <img className="vert-subcontainer-image" src="/portfolio/images/logos/ruby.png"></img>
           Ruby
-        </div>
+        </div> */}
 
         <div className="vert-subcontainer-line"></div>
         <div className="vert-subcontainer-item">
@@ -175,49 +225,7 @@ export default function Skills() {
         </div>
       </div>
 
-      <div className="vert-subcontainer-group">
-        <div className="vert-subcontainer-group-inner">
 
-        Dev Environments:
-
-        <div className="vert-subcontainer-line"></div>
-        <div className="vert-subcontainer-item">
-          <img className="vert-subcontainer-image" src="/portfolio/images/logos/aws.png"></img>
-          AWS
-        </div>
-
-        <div className="vert-subcontainer-line"></div>
-        <div className="vert-subcontainer-item">
-          <img className="vert-subcontainer-image" src="/portfolio/images/logos/linux.png"></img>
-          Linux
-        </div>
-
-        <div className="vert-subcontainer-line"></div>
-        <div className="vert-subcontainer-item">
-          <img className="vert-subcontainer-image" src="/portfolio/images/logos/wsl.png"></img>
-          WSL
-        </div>
-
-        <div className="vert-subcontainer-line"></div>
-        <div className="vert-subcontainer-item">
-          <img className="vert-subcontainer-image" src="/portfolio/images/logos/macos.png"></img>
-          MacOS
-        </div>
-
-        <div className="vert-subcontainer-line"></div>
-        <div className="vert-subcontainer-item">
-          <img className="vert-subcontainer-image" src="/portfolio/images/logos/docker.png"></img>
-          Docker
-        </div>
-
-        <div className="vert-subcontainer-line"></div>
-        <div className="vert-subcontainer-item">
-          <img className="vert-subcontainer-image" src="/portfolio/images/logos/nodejs.png"></img>
-          NodeJs
-        </div>
-        
-        </div>
-      </div>
 
       <div className="vert-subcontainer-group">
       <div className="vert-subcontainer-group-inner">
