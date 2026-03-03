@@ -1,0 +1,3 @@
+There is a folder called images in the build folder. That forlder is used when deploying the website and will be generated automatically
+
+When working in development mode in order to reference the correct images folder place your images in the following folder; public/images
