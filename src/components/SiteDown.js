@@ -33,7 +33,7 @@ export default function SiteDown() {
 
       </div>
       
-      <div className='scrollContainer'>
+      <div className='scrollContainerSiteDown'>
       {/* <img className="siteDownIcon" src={image}></img> */}
       <img className='siteDownIcon' src="/portfolio/images/server-maintenance-icon.png"></img>
       <div>

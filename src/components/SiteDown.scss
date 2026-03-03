@@ -43,7 +43,7 @@
     }
   }
 
-.scrollContainer{
+.scrollContainerSiteDown{
     display: flex;
     align-items: center;
     margin-top: -1px;
@@ -112,7 +112,7 @@
 
 @media(max-width:723px){
 
-    .scrollContainer{
+    .scrollContainerSiteDown{
         flex-direction: column;
     }
 }
@@ -134,7 +134,7 @@
     .resumeHeader{
         height: 49px;
     }
-    .scrollContainer{
+    .scrollContainerSiteDown{
         flex-direction: column;
     }
 }
@@ -170,7 +170,7 @@
 }
 
 @media(max-width:428px){
-    .scrollContainer {
+    .scrollContainerSiteDown {
         height: unset;
         padding-bottom: 33px;
         padding-top: 20px;
