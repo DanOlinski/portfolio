@@ -31,7 +31,7 @@
         - make sure that you repo is deploying the website from gh-pages branch (go to gitHub website / your repository / settings / pages. There you can set the branch from where your website will be deployed)
         - run the command `npm run build`
         - coppy build files to your online repo; `Copy-Item -Path build/* -Destination . -Recurse -Force`
-        - upload the branch changes to your repo; `git add . --ignore-errors` then `git commit -m "Update site"` then `git push origin gh-pages`
+        - upload the branch changes to your repo; `git add . --ignore-errors` then `git commit -m "Update site"` then `git push origin gh-pages --force`
         - these steps are automated in the file `deploy.ps1` to run this file run the code; `.\deploy.ps1`
 after the command runs, wait a bit for the changes to be applied to github and subsequently to view your live website.
 

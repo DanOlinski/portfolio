@@ -5,12 +5,14 @@ import Content from "./components/Content";
 import Email from "./components/Email";
 import Footer from "./components/Footer";
 import Resume from "./components/Resume";
+import Loading from "./components/Loading";
 
 function App() {
 
   return (
     <>
     <div className='bg'>
+      <Loading />
       <Resume />
       <Header />
       <Content />

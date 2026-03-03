@@ -22,6 +22,6 @@ git commit -m "Auto-deploy: $(Get-Date -Format 'yyyy-MM-dd HH:mm:ss')"
 
 # Step 6: Push
 Write-Host "Pushing to GitHub..." -ForegroundColor Yellow
-git push origin gh-pages
+git push origin gh-pages --force
 
 Write-Host "Done! Wait 30-60 sec, then hard-refresh your site." -ForegroundColor Green

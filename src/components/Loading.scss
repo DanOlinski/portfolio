@@ -1,8 +1,8 @@
 .loadingContainer{
     display: flex;
     position: fixed;
-    margin-top: -254px;
-    margin-left: -21px;
+    margin-top: -77px;
+    // margin-left: -21px;
     height: 99%;
     width: 99%;
     background-color: rgb(22 15 5 / 75%);
@@ -54,7 +54,7 @@
 
 @media(max-width:766px){
     .loadingContainer{
-            margin-top: -325px;
+            margin-top: -77px;
     }
 
 }
