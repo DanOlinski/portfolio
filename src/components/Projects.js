@@ -74,9 +74,9 @@ export default function Projects() {
 
           <SchedulerApp/>
           <Budget/>
-          <Portfolio/>
           <Scribble/>
           <ExpressJs/>
+          <Portfolio/>
           <JsAlgorithms/>
 
 
