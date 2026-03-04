@@ -40,7 +40,7 @@ export default function SiteDown() {
 
             <div className='scrollContainerSiteDown'>
               {/* <img className="siteDownIcon" src={image}></img> */}
-              <img className='siteDownIcon' src="./portfolio/images/server-maintenance-icon.png" alt=""></img>
+              <img className='siteDownIcon' src="/portfolio/images/server-maintenance-icon.png" alt=""></img>
               <div>
                 Sorry, the application you are trying to open is currently offline.
                 <p></p>
