@@ -12,29 +12,32 @@ export default function SchedulerApp() {
   const handelClickSchedulerApp = () => {
     setSchedulerApp(!schedulerApp)
   }
-const url = 'http://13.58.245.22:8000/';
-// const url = 'http://13.58.245.22:8007/';
+// const url = 'http://13.58.245.22:8000/';
+const url = 'http://13.58.245.22:8007/';
 
 
 
-  const handelClickSiteDown = async () => {
-setLoading(true)
+const handelClickSiteDown = async () => {
+  setLoading(true);
 
-
-  try {
-    await fetch(url, {
-      method: 'HEAD',
-      mode: 'no-cors',
-      signal: AbortSignal.timeout(3000)
-    });
-    setLoading(false)
+try {
+  const response = await fetch(url, {
+    method: 'HEAD',
+    mode: 'no-cors',
+    signal: AbortSignal.timeout(3000)
+  });
+  // If success, response is opaque but type 'opaque'
+  if (response.type === 'opaque') {
     window.open(url, '_blank', 'noopener,noreferrer');
-  } catch {
-    setLoading(false)
-    setSiteDown('open')
+  } else {
+    throw new Error('Not opaque'); // fallback
   }
-
+  setLoading(false);
+} catch {
+  setLoading(false);
+  setSiteDown('open');
 }
+};
 
   ///depending on the value of the state the app will render a collapsed component or a expanded component
   if (schedulerApp) {
