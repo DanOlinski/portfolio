@@ -1,10 +1,10 @@
-import React, { useEffect, useRef } from "react";
+// import React, { useEffect, useRef } from "react";
 import globalStates from '../../hooks/globalStates';
 // import axios from "axios";
 
 //This section is rendered inside the "Projects" component.
 export default function Scribble() {
-  const { scribble, setScribble, url, setUrl, setUrl2, setLoading, click, setClick } = globalStates()
+  const { scribble, setScribble, setUrl, setLoading, click, setClick } = globalStates()
 
   const handelClickSiteDown = () => {
     
@@ -40,7 +40,7 @@ export default function Scribble() {
     
                 <div className="vert-subcontainer-line"></div>
     
-                <a className="projects-text-link" href="https://github.com/DanOlinski/Scribble" target="_blank">
+                <a className="projects-text-link" href="https://github.com/DanOlinski/Scribble" target="_blank" rel="noreferrer">
                   Link to repository
                 </a>
 
@@ -59,7 +59,7 @@ export default function Scribble() {
     
                 </div>
     
-                <img className="projects-image" src="/portfolio/images//projects/scribble/snapshot.jpg"></img>
+                <img className="projects-image" src="/portfolio/images//projects/scribble/snapshot.jpg" alt="" />
     
               </div>
             </div>
