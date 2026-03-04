@@ -19,7 +19,7 @@ export default function SchedulerApp() {
   //in this case I am using 2 urls, one is the expressJs server and the other is the url I want the client to be redirected to
     setUrl('http://13.58.245.22:8001/')
     setUrl2('http://13.58.245.22:8000/')
-console.log(url)
+// console.log(url)
     //loading state sets the loading animation
     setLoading(true)
     //the click state triggers the useEffect to run, I can't use the loading state change to trigger the useEffect because it is being changed inside the useEffect and that would cause a loop
