@@ -5,29 +5,36 @@ import globalStates from '../../hooks/globalStates';
 
 //This section is rendered inside the "Projects" component.
 export default function SchedulerApp() {
-  const { schedulerApp, setSchedulerApp} = globalStates()
-  // const { schedulerApp, setSchedulerApp, setLoading, click, setClick, setUrl} = globalStates()
+  // const { schedulerApp, setSchedulerApp} = globalStates()
+  const { schedulerApp, setSchedulerApp, setLoading, click, setClick, setUrl, setSiteDown} = globalStates()
 
   //when the text is clicked change the state to "true" or "false". This state is used to expand or collapse this component.
   const handelClickSchedulerApp = () => {
     setSchedulerApp(!schedulerApp)
   }
+const url = 'http://13.58.245.22:8000/';
+// const url = 'http://13.58.245.22:8007/';
 
-  const handelClickSiteDown = () => {
-    //USE THIS IF YOUR SITE IS ONLINE IN AWS (COMMENT OUT LINES 9, 21, 26, 28. UNCOMMENT LINE 8 )
-    window.open('http://13.58.245.22:8000/')
 
-    //this is the url for the app website
-    
-    // setUrl('http://13.58.245.22:8000/')
-    
 
-// console.log(url)
-    //loading state sets the loading animation
-    // setLoading(true)
-    //the click state triggers the useEffect to run, I can't use the loading state change to trigger the useEffect because it is being changed inside the useEffect and that would cause a loop
-    // setClick(!click)
+  const handelClickSiteDown = async () => {
+setLoading(true)
+
+
+  try {
+    await fetch(url, {
+      method: 'HEAD',
+      mode: 'no-cors',
+      signal: AbortSignal.timeout(3000)
+    });
+    setLoading(false)
+    window.open(url, '_blank', 'noopener,noreferrer');
+  } catch {
+    setLoading(false)
+    setSiteDown('open')
   }
+
+}
 
   ///depending on the value of the state the app will render a collapsed component or a expanded component
   if (schedulerApp) {
