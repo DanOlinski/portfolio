@@ -35,13 +35,13 @@ export default function SiteDown() {
       console.log(url)
       // This code will only run on subsequent updates, not on the initial mount
           const timeOutAction = function () {
-      // if(siteDown !== 'siteLoaded'){
+      if(siteDown !== 'siteLoaded'){
         setLoading(false)
         setSiteDown('open')
-      // }      
+      }      
     }
 
-    let timeOut1 = setTimeout(timeOutAction, 2000)
+    let timeOut1 = setTimeout(timeOutAction, 5000)
 
     axios.head(url)
 
