@@ -5,7 +5,8 @@ import globalStates from '../../hooks/globalStates';
 
 //This section is rendered inside the "Projects" component.
 export default function SchedulerApp() {
-  const { schedulerApp, setSchedulerApp, url} = globalStates()
+  const { schedulerApp, setSchedulerApp} = globalStates()
+  // const { schedulerApp, setSchedulerApp, setLoading, click, setClick, setUrl} = globalStates()
 
   //when the text is clicked change the state to "true" or "false". This state is used to expand or collapse this component.
   const handelClickSchedulerApp = () => {
@@ -13,11 +14,14 @@ export default function SchedulerApp() {
   }
 
   const handelClickSiteDown = () => {
-    
+    //USE THIS IF YOUR SITE IS ONLINE IN AWS (COMMENT OUT LINES 9, 21, 26, 28. UNCOMMENT LINE 8 )
+    window.open('http://13.58.245.22:8000/')
+
     //this is the url for the app website
+    
     // setUrl('http://13.58.245.22:8000/')
-const proxyUrl = `/api/proxy?url=${encodeURIComponent(url)}`;
-            window.open(proxyUrl, '_blank', 'noopener,noreferrer');
+    
+
 // console.log(url)
     //loading state sets the loading animation
     // setLoading(true)
