@@ -5,7 +5,7 @@ import globalStates from '../hooks/globalStates';
 import axios from "axios";
 
 export default function SiteDown() {
-  const { schedulerApp, setSchedulerApp, setSiteDown, siteDown, urlValidation, setUrlValidation, loading, setLoading, click, setClick, url, url2, setUrl2 } = globalStates()
+  const { schedulerApp, setSchedulerApp, setSiteDown, siteDown, urlValidation, setUrlValidation, loading, setLoading, click, setClick, url, url2, setUrl } = globalStates()
 
 
   const renderLoading=()=>{
@@ -28,45 +28,46 @@ export default function SiteDown() {
   }
 
 
-    useEffect(() => {
+useEffect(() => {
+  console.log("Checking:", url);
+  if (loading) {
 
-    // Check if the component has mounted
-    if (loading) {
-      console.log(url)
-      // This code will only run on subsequent updates, not on the initial mount
-          const timeOutAction = function () {
-      if(siteDown !== 'siteLoaded'){
-        setLoading(false)
-        setSiteDown('open')
-      }      
-    }
+    const timeoutAction = () => {
+      if (loading) {
+        setLoading(false);
+        setSiteDown('open');  // shows your "site down" UI
+        // NO auto-open - user sees error, can retry manually
+      }
+    };
 
-    let timeOut1 = setTimeout(timeOutAction, 5000)
+    const timeoutId = setTimeout(timeoutAction, 1500);  // 1.5s timeout
 
-    axios.head(url)
-
-      .then((resp) => {
-        if (resp.status === 200 && loading) {
-          clearTimeout(timeOut1)
-          setLoading(false)
-          setSiteDown('siteLoaded')
-
-          if(url2){
-            window.open(url2, '_blank', 'noopener,noreferrer');
-            setUrl2(null)
-          } else {
-             window.open(url, '_blank', 'noopener,noreferrer');
+    fetch(url, {
+      method: 'HEAD',
+      mode: 'no-cors',  // skips CORS check
+      signal: AbortSignal.timeout(1500)  // cancels after 1.5s
+    })
+      .then(() => {
+        clearTimeout(timeoutId);
+        if (loading) {
+          setLoading(false);
+          setSiteDown('siteLoaded');
+          setUrl(false)
+          // Only open on success
+          if (url) {
+            window.open(url, '_blank', 'noopener,noreferrer');
+            setUrl(false)
           }
         }
       })
-      .catch((resp) => {
-        // setLoading(false)
-        // setSiteDown('open')
-        // console.log(resp + '!!!!!!!!!')
-      })
-    } 
-
-  }, [click]);
+      .catch(() => {
+        // Timeout or any fail → treat as down
+        clearTimeout(timeoutId);
+        timeoutAction();  // show down UI
+        setUrl(null)
+      });
+  }
+}, [click]);
 
   
   //----------------

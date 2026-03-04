@@ -4,14 +4,17 @@ import axios from "axios";
 
 //This section is rendered inside the "Projects" component.
 export default function Scribble() {
-  const { scribble, setScribble, url, setUrl, setLoading, click, setClick } = globalStates()
+  const { scribble, setScribble, url, setUrl, setUrl2, setLoading, click, setClick } = globalStates()
 
   const handelClickSiteDown = () => {
     
     //this is the url for the app website
   //usually I preffer accessing an expressJs server instead of a react server. Because my express servers have CROS enabled, wich allows for API requests. if I try to perform an API request to an end point that is not configured to allow for CROS protocol, then even if the url works, this app will throw an error
-    setUrl('http://3.145.160.71:3010/')
-console.log(url)
+
+    setUrl('http://13.58.245.22:8004/')
+
+
+// console.log(url)
     //loading state sets the loading animation
     setLoading(true)
     //the click state triggers the useEffect to run, I can't use the loading state change to trigger the useEffect because it is being changed inside the useEffect and that would cause a loop
