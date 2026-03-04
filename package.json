@@ -2,6 +2,14 @@
   "homepage": "http://DanOlinski.github.io/portfolio",
   "name": "reactserver",
   "version": "0.1.0",
+  "eslintConfig": {
+  "extends": "react-app",
+  "rules": {
+    "no-unused-vars": "warn",
+    "react/jsx-no-target-blank": "warn",
+    "jsx-a11y/alt-text": "warn"
+  }
+},
   "private": true,
   "dependencies": {
     "@emailjs/browser": "^4.3.3",
@@ -26,14 +34,7 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
-  "eslintConfig": {
-  "extends": "react-app",
-  "rules": {
-    "no-unused-vars": "warn",
-    "react/jsx-no-target-blank": "warn",
-    "jsx-a11y/alt-text": "warn"
-  }
-},
+  
   "browserslist": {
     "production": [
       ">0.2%",
