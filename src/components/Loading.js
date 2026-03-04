@@ -2,7 +2,7 @@
 import React, { useEffect, useRef } from "react";
 import "./Loading.scss";
 import globalStates from '../hooks/globalStates';
-import axios from "axios";
+// import axios from "axios";
 
 export default function SiteDown() {
   const { schedulerApp, setSchedulerApp, setSiteDown, siteDown, urlValidation, setUrlValidation, loading, setLoading, click, setClick, url, url2, setUrl } = globalStates()
