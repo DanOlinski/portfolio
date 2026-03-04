@@ -17,8 +17,8 @@ export default function SchedulerApp() {
     //this is the url for the app website
   //usually I preffer accessing an expressJs server instead of a react server. Because my express servers have CROS enabled, wich allows for API requests. if I try to perform an API request to an end point that is not configured to allow for CROS protocol, then even if the url works, this app will throw an error
   //in this case I am using 2 urls, one is the expressJs server and the other is the url I want the client to be redirected to
-    setUrl('http://52.15.33.50:8001/')
-    setUrl2('http://52.15.33.50:8000/')
+    setUrl('http://13.58.245.22:8001/')
+    setUrl2('http://13.58.245.22:8000/')
 console.log(url)
     //loading state sets the loading animation
     setLoading(true)
