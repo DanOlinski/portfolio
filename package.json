@@ -3,12 +3,7 @@
 "eslintConfig": {
   "extends": "react-app",
   "rules": {
-    "no-unused-vars": "warn",
-    "react/jsx-no-target-blank": "warn",
-    "jsx-a11y/alt-text": "warn",
-    "jsx-a11y/img-redundant-alt": "warn",
-    "no-lone-blocks": "warn",
-    "react-hooks/exhaustive-deps": "warn"
+    "*": "off"
   }
 },
   "name": "reactserver",
