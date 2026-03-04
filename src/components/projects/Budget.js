@@ -1,4 +1,4 @@
-import React from "react";
+// import React from "react";
 import globalStates from '../../hooks/globalStates';
 
 //This section is rendered inside the "Projects" component.
@@ -25,11 +25,11 @@ export default function Budget() {
     
                 <div className="vert-subcontainer-line"></div>
     
-                <a className="projects-text-link" href="https://github.com/DanOlinski/Budget" target="_blank">
+                <a className="projects-text-link" href="https://github.com/DanOlinski/Budget" target="_blank" rel="noreferrer">
                   Link to repository
                 </a>
 
-                <a className="projects-text-link" href="https://drive.google.com/file/d/1-i8MmTTnpAM7Bnz_Ej4XI7BVFdliY-vu/view?usp=drivesdk" target="_blank">
+                <a className="projects-text-link" href="https://drive.google.com/file/d/1-i8MmTTnpAM7Bnz_Ej4XI7BVFdliY-vu/view?usp=drivesdk" target="_blank" rel="noreferrer">
                   Link to app presentation
                 </a>
     
@@ -42,9 +42,9 @@ export default function Budget() {
     
                 </div>
     
-                <img className="projects-image" src="/portfolio/images/projects/budget/pieChartSpending.jpg"></img>
+                <img className="projects-image" src="/portfolio/images/projects/budget/pieChartSpending.jpg" alt=""></img>
     
-                <img className="projects-image" src="/portfolio/images/projects/budget/categories.jpg"></img>
+                <img className="projects-image" src="/portfolio/images/projects/budget/categories.jpg" alt=""></img>
     
               </div>
             </div>

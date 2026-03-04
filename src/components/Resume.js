@@ -27,14 +27,14 @@ export default function Footer() {
         <a  href={`${process.env.PUBLIC_URL}/Daniel-Olinski-Resume.pdf`} 
   download="Daniel-Olinski-Resume.pdf">
         
-        <img className='downloadIcon' src="/portfolio/images/downloadIcon.png"></img>
+        <img className='downloadIcon' src="/portfolio/images/downloadIcon.png" alt=""></img>
 
         </a>
 
       </div>
       
       <div className='scrollContainer'>
-      <img className="resumePic" src={image}></img>
+      <img className="resumePic" src={image} alt=""></img>
       </div>
 </div>
       </div>
@@ -74,7 +74,7 @@ export default function Footer() {
       return () => {
         document.body.removeEventListener('mousedown', closeMenuOnClickOutside);
       };
-  
+   // eslint-disable-next-line
     }, []);
   
   //----------------

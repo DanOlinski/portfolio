@@ -1,4 +1,4 @@
-import React from "react";
+// import React from "react";
 import globalStates from '../../hooks/globalStates';
 
 //This section is rendered inside the "Projects" component.
@@ -26,7 +26,7 @@ export default function ExpressJs() {
     
                 <div className="vert-subcontainer-line"></div>
     
-                <a className="projects-text-link" href="https://github.com/DanOlinski/expressJsServerTemplate" target="_blank">
+                <a className="projects-text-link" href="https://github.com/DanOlinski/expressJsServerTemplate" target="_blank" rel="noreferrer">
                   Link to repository
                 </a>
     
@@ -39,7 +39,7 @@ export default function ExpressJs() {
     
                 </div>
     
-                <img className="projects-image" src="/portfolio/images//projects/expressJsServerTemplate/background.jpg"></img>
+                <img className="projects-image" src="/portfolio/images//projects/expressJsServerTemplate/background.jpg" alt=""></img>
     
               </div>
             </div>

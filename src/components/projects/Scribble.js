@@ -59,7 +59,7 @@ export default function Scribble() {
     
                 </div>
     
-                <img className="projects-image" src="/portfolio/images//projects/scribble/snapshot.jpg" alt="" />
+                <img className="projects-image" src="/portfolio/images//projects/scribble/snapshot.jpg" alt="" ></img>
     
               </div>
             </div>

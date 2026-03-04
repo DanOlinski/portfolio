@@ -1,11 +1,5 @@
 {
   "homepage": "http://DanOlinski.github.io/portfolio",
-"eslintConfig": {
-  "extends": "react-app",
-  "rules": {
-    "*": "off"
-  }
-},
   "name": "reactserver",
   "version": "0.1.0",
   "private": true,
@@ -32,7 +26,12 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
-  
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
   "browserslist": {
     "production": [
       ">0.2%",

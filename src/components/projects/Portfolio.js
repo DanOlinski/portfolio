@@ -1,10 +1,10 @@
-import React, { useEffect, useRef } from "react";
+// import React, { useEffect, useRef } from "react";
 import globalStates from '../../hooks/globalStates';
 // import axios from "axios";
 
 //This section is rendered inside the "Projects" component.
 export default function Portfolio() {
-  const { portfolio, setPortfolio, url, setUrl, setUrl2, setLoading, click, setClick  } = globalStates()
+  const { portfolio, setPortfolio, url, setUrl, setLoading, click, setClick  } = globalStates()
 
   const handelClickSiteDown = () => {
     
@@ -40,7 +40,7 @@ console.log(url)
 
                 <div className="vert-subcontainer-line"></div>
     
-                <a className="projects-text-link" href="https://github.com/DanOlinski/portfolio-template" target="_blank">
+                <a className="projects-text-link" href="https://github.com/DanOlinski/portfolio-template"  rel="noreferrer">
                   Link to repository
                 </a>
 
@@ -63,7 +63,7 @@ console.log(url)
                   <br></br>Stack: NodeJS v16, React, emailjs, gh-pages
                 </div>
     
-                <img className="projects-image" src="/portfolio/images//projects/portfolio/capture.jpg"></img>
+                <img className="projects-image" src="/portfolio/images//projects/portfolio/capture.jpg" alt=""></img>
     
               </div>
             </div>

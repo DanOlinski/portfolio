@@ -1,11 +1,11 @@
-import React, { useEffect, useRef } from "react";
+// import React, { useEffect, useRef } from "react";
 import globalStates from '../../hooks/globalStates';
 // import axios from "axios";
 
 
 //This section is rendered inside the "Projects" component.
 export default function SchedulerApp() {
-  const { schedulerApp, setSchedulerApp, setLoading, click, setClick, url, setUrl, setUrl2 } = globalStates()
+  const { schedulerApp, setSchedulerApp, setLoading, click, setClick, setUrl} = globalStates()
 
   //when the text is clicked change the state to "true" or "false". This state is used to expand or collapse this component.
   const handelClickSchedulerApp = () => {
@@ -37,7 +37,7 @@ export default function SchedulerApp() {
 
             <div className="vert-subcontainer-line"></div>
 
-            <a className="projects-text-link" href="https://github.com/DanOlinski/schedulerApp" target="_blank">
+            <a className="projects-text-link" href="https://github.com/DanOlinski/schedulerApp" target="_blank" rel="noreferrer">
               Link to repository
             </a>
 
@@ -55,9 +55,9 @@ export default function SchedulerApp() {
               Stack: Axios, React, Storybook, SASS, Jest, PostgreSQL
             </div>
 
-            <img className="projects-image" src="/portfolio/images/projects/schedulerApp/main-page.JPG"></img>
+            <img className="projects-image" src="/portfolio/images/projects/schedulerApp/main-page.JPG" alt=""></img>
 
-            <img className="projects-image" src="/portfolio/images/projects/schedulerApp/new-appointment.JPG"></img>
+            <img className="projects-image" src="/portfolio/images/projects/schedulerApp/new-appointment.JPG" alt=""></img>
 
           </div>
         </div>

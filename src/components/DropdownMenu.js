@@ -5,9 +5,9 @@ import globalStates from '../hooks/globalStates';
 import HeaderMenu from "./HeaderMenu";
 
 export default function DropdownMenu() {
-  const { content, setContent } = globalStates();
+  const { setContent } = globalStates();
   const { dropDown, setDropDown } = globalStates();
-  const { resume, setResume } = globalStates();
+  const { setResume } = globalStates();
 
     //This function will change the content state to 'email', the e-mail component is rendered within a conditional statement that checks if the content state is set to 'email'
     const handelEmailClick = () => {
@@ -57,7 +57,7 @@ export default function DropdownMenu() {
     return () => {
       document.body.removeEventListener('mousedown', closeMenuOnClickOutside);
     };
-
+ // eslint-disable-next-line
   }, []);
 
   //when clicking outside of the menu element the useEffect detects that and closes the menu dropdown. If that is not set the menu will close before the action of clicking on one of the options can be executed. However after the option is executed the menu should be close and that is what the following function is designed for
@@ -82,7 +82,7 @@ export default function DropdownMenu() {
 
         <div className='dropdown' ref={menuRef}>
           <div onClick={handelHomeClick} className='dropdown-options'>
-            <img className="icon-list" src="/portfolio/images/house-icon.png" alt='image'></img>
+            <img className="icon-list" src="/portfolio/images/house-icon.png" alt=''></img>
             Home
           </div>
           {/* the commented out code below is only if Projects section is placed after Skills section */}
@@ -95,28 +95,28 @@ export default function DropdownMenu() {
 
 
             <div className='a-element' >
-              <img className="icon-list" src="/portfolio/images/resume-w.png" alt='image'></img>
+              <img className="icon-list" src="/portfolio/images/resume-w.png" alt=''></img>
               Resume
             </div>
 
           </div>
           <div className='dropdown-line'></div>
 
-            <a className='a-element dropdown-options' href="https://github.com/DanOlinski" target="_blank" onClick={closeMenu}>
-              <img className="icon-list" src="/portfolio/images/github-w.png"></img>
+            <a className='a-element dropdown-options' href="https://github.com/DanOlinski" target="_blank" rel="noreferrer" onClick={closeMenu}>
+              <img className="icon-list" src="/portfolio/images/github-w.png" alt=""></img>
               Github
             </a>
           <div className='dropdown-line'></div>
         
           {/* <div onClick={closeMenu} className='dropdown-options'> */}
-            <a className='a-element dropdown-options' href="https://www.linkedin.com/in/daniel-olinski/" target="_blank" onClick={closeMenu}>
-              <img className="icon-list" src="/portfolio/images/linkedin-w.png"></img>
+            <a className='a-element dropdown-options' href="https://www.linkedin.com/in/daniel-olinski/" target="_blank" rel="noreferrer" onClick={closeMenu}>
+              <img className="icon-list" src="/portfolio/images/linkedin-w.png" alt=""></img>
               Linkedin
             </a>
           {/* </div> */}
           <div className='dropdown-line'></div>
           <div onClick={handelEmailClick} className='dropdown-options'>
-            <img className="icon-list" src="/portfolio/images/email-w.png"></img>
+            <img className="icon-list" src="/portfolio/images/email-w.png" alt=""></img>
             Send Email
           </div>
 
@@ -127,7 +127,7 @@ export default function DropdownMenu() {
       );
     }
 
-    {/* header has to be rendered inside the dropDownMenu component, so that when you click on the menu icon the dropDown menu will close (if it's open) */}
+    /* header has to be rendered inside the dropDownMenu component, so that when you click on the menu icon the dropDown menu will close (if it's open) */
     if (!dropDown) {
       return (
         <div className="menu-icon menu-icon-animationClosed" onClick={handelMenuClick}>

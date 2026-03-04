@@ -1,4 +1,4 @@
-import React from "react";
+// import React from "react";
 import "./Skills.scss"
 import "./Content.scss"
 import globalStates from '../hooks/globalStates';
@@ -33,49 +33,49 @@ export default function Skills() {
         
         <div className="vert-subcontainer-line"></div>
         <div className="vert-subcontainer-item">
-          <img className="vert-subcontainer-image" src="/portfolio/images/logos/react.png"></img>
+          <img className="vert-subcontainer-image" src="/portfolio/images/logos/react.png" alt=""></img>
           React
         </div>
 
         <div className="vert-subcontainer-line"></div>
         <div className="vert-subcontainer-item">
-          <img className="vert-subcontainer-image" src="/portfolio/images/logos/nextjs.png"></img>
+          <img className="vert-subcontainer-image" src="/portfolio/images/logos/nextjs.png" alt=""></img>
           Next.Js
         </div>
 
         <div className="vert-subcontainer-line"></div>
         <div className="vert-subcontainer-item">
-          <img className="vert-subcontainer-image" src="/portfolio/images/logos/ajax.png"></img>
+          <img className="vert-subcontainer-image" src="/portfolio/images/logos/ajax.png" alt=""></img>
           Ajax
         </div>
 
         <div className="vert-subcontainer-line"></div>
         <div className="vert-subcontainer-item">
-          <img className="vert-subcontainer-image" src="/portfolio/images/logos/jquery.png"></img>
+          <img className="vert-subcontainer-image" src="/portfolio/images/logos/jquery.png" alt=""></img>
           jQuery
         </div>
 
         <div className="vert-subcontainer-line"></div>
         <div className="vert-subcontainer-item">
-          <img className="vert-subcontainer-image" src="/portfolio/images/logos/bootstrap.png"></img>
+          <img className="vert-subcontainer-image" src="/portfolio/images/logos/bootstrap.png" alt=""></img>
           Bootstrap
         </div>
 
         <div className="vert-subcontainer-line"></div>
         <div className="vert-subcontainer-item">
-          <img className="vert-subcontainer-image" src="/portfolio/images/logos/axios.png"></img>
+          <img className="vert-subcontainer-image" src="/portfolio/images/logos/axios.png" alt=""></img>
           Axios
         </div>
 
         <div className="vert-subcontainer-line"></div>
         <div className="vert-subcontainer-item">
-          <img className="vert-subcontainer-image" src="/portfolio/images/logos/ruby-on-rails.png"></img>
+          <img className="vert-subcontainer-image" src="/portfolio/images/logos/ruby-on-rails.png" alt=""></img>
           Ruby on Rails
         </div>
 
         <div className="vert-subcontainer-line"></div>
         <div className="vert-subcontainer-item">
-          <img className="vert-subcontainer-image" src="/portfolio/images/logos/expressjs.png"></img>
+          <img className="vert-subcontainer-image" src="/portfolio/images/logos/expressjs.png" alt=""></img>
           ExpressJs
         </div>
 
@@ -89,43 +89,43 @@ export default function Skills() {
 
         <div className="vert-subcontainer-line"></div>
         <div className="vert-subcontainer-item">
-          <img className="vert-subcontainer-image" src="/portfolio/images/logos/aws.png"></img>
+          <img className="vert-subcontainer-image" src="/portfolio/images/logos/aws.png" alt=""></img>
           AWS
         </div>
 
         <div className="vert-subcontainer-line"></div>
         <div className="vert-subcontainer-item">
-          <img className="vert-subcontainer-image" src="/portfolio/images/logos/linux.png"></img>
+          <img className="vert-subcontainer-image" src="/portfolio/images/logos/linux.png" alt=""></img>
           Linux
         </div>
 
         <div className="vert-subcontainer-line"></div>
         <div className="vert-subcontainer-item">
-          <img className="vert-subcontainer-image" src="/portfolio/images/logos/wsl.png"></img>
+          <img className="vert-subcontainer-image" src="/portfolio/images/logos/wsl.png" alt=""></img>
           WSL
         </div>
 
         <div className="vert-subcontainer-line"></div>
         <div className="vert-subcontainer-item">
-          <img className="vert-subcontainer-image" src="/portfolio/images/logos/macOs.png"></img>
+          <img className="vert-subcontainer-image" src="/portfolio/images/logos/macOs.png" alt=""></img>
           MacOS
         </div>
 
         <div className="vert-subcontainer-line"></div>
         <div className="vert-subcontainer-item">
-          <img className="vert-subcontainer-image" src="/portfolio/images/logos/docker.png"></img>
+          <img className="vert-subcontainer-image" src="/portfolio/images/logos/docker.png" alt=""></img>
           Docker
         </div>
 
         <div className="vert-subcontainer-line"></div>
         <div className="vert-subcontainer-item">
-          <img className="vert-subcontainer-image" src="/portfolio/images/logos/nodejs.png"></img>
+          <img className="vert-subcontainer-image" src="/portfolio/images/logos/nodejs.png" alt=""></img>
           NodeJs
         </div>
 
          <div className="vert-subcontainer-line"></div>
         <div className="vert-subcontainer-item">
-          <img className="vert-subcontainer-image" src="/portfolio/images/logos/claudeAi.png"></img>
+          <img className="vert-subcontainer-image" src="/portfolio/images/logos/claudeAi.png" alt=""></img>
           Claude AI
         </div>
         
@@ -139,7 +139,7 @@ export default function Skills() {
         
         <div className="vert-subcontainer-line"></div>
         <div className="vert-subcontainer-item">
-          <img className="vert-subcontainer-image" src="/portfolio/images/logos/javascript.png"></img>
+          <img className="vert-subcontainer-image" src="/portfolio/images/logos/javascript.png" alt=""></img>
           JavaScript
         </div>
 
@@ -151,31 +151,31 @@ export default function Skills() {
 
         <div className="vert-subcontainer-line"></div>
         <div className="vert-subcontainer-item">
-          <img className="vert-subcontainer-image" src="/portfolio/images/logos/html.png"></img>
+          <img className="vert-subcontainer-image" src="/portfolio/images/logos/html.png" alt=""></img>
           HTML
         </div>
 
         <div className="vert-subcontainer-line"></div>
         <div className="vert-subcontainer-item">
-          <img className="vert-subcontainer-image" src="/portfolio/images/logos/ejs.png"></img>
+          <img className="vert-subcontainer-image" src="/portfolio/images/logos/ejs.png" alt=""></img>
           ejs
         </div>
 
         <div className="vert-subcontainer-line"></div>
         <div className="vert-subcontainer-item">
-          <img className="vert-subcontainer-image" src="/portfolio/images/logos/css.png"></img>
+          <img className="vert-subcontainer-image" src="/portfolio/images/logos/css.png" alt=""></img>
           CSS
         </div>
 
         <div className="vert-subcontainer-line"></div>
         <div className="vert-subcontainer-item">
-          <img className="vert-subcontainer-image" src="/portfolio/images/logos/sass.png"></img>
+          <img className="vert-subcontainer-image" src="/portfolio/images/logos/sass.png" alt=""></img>
           SASS
         </div>
 
         <div className="vert-subcontainer-line"></div>
         <div className="vert-subcontainer-item">
-          <img className="vert-subcontainer-image" src="/portfolio/images/logos/php.png"></img>
+          <img className="vert-subcontainer-image" src="/portfolio/images/logos/php.png" alt=""></img>
           PHP
         </div>
         </div>
@@ -188,37 +188,37 @@ export default function Skills() {
         
         <div className="vert-subcontainer-line"></div>
         <div className="vert-subcontainer-item">
-          <img className="vert-subcontainer-image" src="/portfolio/images/logos/storybook.png"></img>
+          <img className="vert-subcontainer-image" src="/portfolio/images/logos/storybook.png" alt=""></img>
           Storybook
         </div>
 
         <div className="vert-subcontainer-line"></div>
         <div className="vert-subcontainer-item">
-          <img className="vert-subcontainer-image" src="/portfolio/images/logos/rspec.png"></img>
+          <img className="vert-subcontainer-image" src="/portfolio/images/logos/rspec.png" alt=""></img>
           RSpec
         </div>
 
         <div className="vert-subcontainer-line"></div>
         <div className="vert-subcontainer-item">
-          <img className="vert-subcontainer-image" src="/portfolio/images/logos/cypress.png"></img>
+          <img className="vert-subcontainer-image" src="/portfolio/images/logos/cypress.png" alt=""></img>
           Cypress
         </div>
 
         <div className="vert-subcontainer-line"></div>
         <div className="vert-subcontainer-item">
-          <img className="vert-subcontainer-image" src="/portfolio/images/logos/mocha.png"></img>
+          <img className="vert-subcontainer-image" src="/portfolio/images/logos/mocha.png" alt=""></img>
           Mocha
         </div>
 
         <div className="vert-subcontainer-line"></div>
         <div className="vert-subcontainer-item">
-          <img className="vert-subcontainer-image" src="/portfolio/images/logos/chai.png"></img>
+          <img className="vert-subcontainer-image" src="/portfolio/images/logos/chai.png" alt=""></img>
           Chai
         </div>
 
         <div className="vert-subcontainer-line"></div>
         <div className="vert-subcontainer-item">
-          <img className="vert-subcontainer-image" src="/portfolio/images/logos/jest.png"></img>
+          <img className="vert-subcontainer-image" src="/portfolio/images/logos/jest.png" alt=""></img>
           Jest
         </div>
 
@@ -234,31 +234,31 @@ export default function Skills() {
         
         <div className="vert-subcontainer-line"></div>
         <div className="vert-subcontainer-item">
-          <img className="vert-subcontainer-image" src="/portfolio/images/logos/sql.png"></img>
+          <img className="vert-subcontainer-image" src="/portfolio/images/logos/sql.png" alt=""></img>
          MySQL
         </div>
 
         <div className="vert-subcontainer-line"></div>
         <div className="vert-subcontainer-item">
-          <img className="vert-subcontainer-image" src="/portfolio/images/logos/postgres.png"></img>
+          <img className="vert-subcontainer-image" src="/portfolio/images/logos/postgres.png" alt=""></img>
           PostgreSQL
         </div>
 
         <div className="vert-subcontainer-line"></div>
         <div className="vert-subcontainer-item">
-          <img className="vert-subcontainer-image" src="/portfolio/images/logos/phpmyadmin.png"></img>
+          <img className="vert-subcontainer-image" src="/portfolio/images/logos/phpmyadmin.png" alt=""></img>
           PhpMyAdmin
         </div>
 
         <div className="vert-subcontainer-line"></div>
         <div className="vert-subcontainer-item">
-          <img className="vert-subcontainer-image" src="/portfolio/images/logos/github.png"></img>
+          <img className="vert-subcontainer-image" src="/portfolio/images/logos/github.png" alt=""></img>
           Git
         </div>
 
         <div className="vert-subcontainer-line"></div>
         <div className="vert-subcontainer-item">
-          <img className="vert-subcontainer-image" src="/portfolio/images/logos/wordpress.png"></img>
+          <img className="vert-subcontainer-image" src="/portfolio/images/logos/wordpress.png" alt=""></img>
           WordPress
         </div>
 
@@ -283,7 +283,7 @@ export default function Skills() {
         <div className="horiz-subcontainer-item">
 
           <div className="tech">
-          <img className="vert-subcontainer-image" src="/portfolio/images/logos/photoshop.png"></img>
+          <img className="vert-subcontainer-image" src="/portfolio/images/logos/photoshop.png" alt=""></img>
           Photoshop
           </div>
 
@@ -292,7 +292,7 @@ export default function Skills() {
 
         <div className="horiz-subcontainer-item">
         <div className="tech">
-          <img className="vert-subcontainer-image" src="/portfolio/images/logos/autodesk.png"></img>
+          <img className="vert-subcontainer-image" src="/portfolio/images/logos/autodesk.png" alt=""></img>
           Autodesk Suite
         </div>
         <div className="horiz-subcontainer-line"></div>
@@ -300,7 +300,7 @@ export default function Skills() {
 
         <div className="horiz-subcontainer-item">
         <div className="tech">
-          <img className="vert-subcontainer-image" src="/portfolio/images/logos/solidworks.png"></img>
+          <img className="vert-subcontainer-image" src="/portfolio/images/logos/solidworks.png" alt=""></img>
           Solid Works
         </div>
         <div className="horiz-subcontainer-line"></div>
@@ -308,7 +308,7 @@ export default function Skills() {
 
         <div className="horiz-subcontainer-item">
         <div className="tech">
-          <img className="vert-subcontainer-image" src="/portfolio/images/logos/msoffice.png"></img>
+          <img className="vert-subcontainer-image" src="/portfolio/images/logos/msoffice.png" alt=""></img>
           Microsoft Suit
         </div>
         <div className="horiz-subcontainer-line"></div>
@@ -331,7 +331,7 @@ export default function Skills() {
 
         <div className="horiz-subcontainer-item">
         <div className="tech">
-          <img className="vert-subcontainer-image" src="/portfolio/images/logos/ableton.png"></img>
+          <img className="vert-subcontainer-image" src="/portfolio/images/logos/ableton.png" alt=""></img>
           Ableton
         </div>
         <div className="horiz-subcontainer-line"></div>
@@ -339,7 +339,7 @@ export default function Skills() {
 
         <div className="horiz-subcontainer-item">
         <div className="tech">
-          <img className="vert-subcontainer-image" src="/portfolio/images/logos/cubase.png"></img>
+          <img className="vert-subcontainer-image" src="/portfolio/images/logos/cubase.png" alt=""></img>
           Cubase
         </div>
         <div className="horiz-subcontainer-line"></div>
@@ -347,7 +347,7 @@ export default function Skills() {
 
         <div className="horiz-subcontainer-item">
         <div className="tech">
-          <img className="vert-subcontainer-image" src="/portfolio/images/logos/spire.png"></img>
+          <img className="vert-subcontainer-image" src="/portfolio/images/logos/spire.png" alt=""></img>
           Spire
         </div>
         <div className="horiz-subcontainer-line"></div>
@@ -355,7 +355,7 @@ export default function Skills() {
 
         <div className="horiz-subcontainer-item">
         <div className="tech">
-          <img className="vert-subcontainer-image" src="/portfolio/images/logos/serum.png"></img>
+          <img className="vert-subcontainer-image" src="/portfolio/images/logos/serum.png" alt=""></img>
           Serum
         </div>
         <div className="horiz-subcontainer-line"></div>
@@ -363,7 +363,7 @@ export default function Skills() {
 
         <div className="horiz-subcontainer-item">
         <div className="tech">
-          <img className="vert-subcontainer-image" src="/portfolio/images/logos/adobe.png"></img>
+          <img className="vert-subcontainer-image" src="/portfolio/images/logos/adobe.png" alt=""></img>
           Adobe Suite
         </div>
         <div className="horiz-subcontainer-line horiz-subcontainer-line"></div>

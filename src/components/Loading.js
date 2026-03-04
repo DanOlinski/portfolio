@@ -1,11 +1,11 @@
-// import * as React from 'react';
-import React, { useEffect, useRef } from "react";
+import * as React from 'react';
+// import React, { useEffect, useRef } from "react";
 import "./Loading.scss";
 import globalStates from '../hooks/globalStates';
 // import axios from "axios";
 
 export default function SiteDown() {
-  const { schedulerApp, setSchedulerApp, setSiteDown, siteDown, urlValidation, setUrlValidation, loading, setLoading, click, setClick, url, url2, setUrl } = globalStates()
+  const { setSiteDown, loading, setLoading, click, url, setUrl } = globalStates()
 
 
   const renderLoading=()=>{
@@ -28,7 +28,7 @@ export default function SiteDown() {
   }
 
 
-useEffect(() => {
+React.useEffect(() => {
   console.log("Checking:", url);
   if (loading) {
 
@@ -67,6 +67,7 @@ useEffect(() => {
         setUrl(null)
       });
   }
+  // eslint-disable-next-line
 }, [click]);
 
   

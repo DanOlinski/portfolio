@@ -1,4 +1,4 @@
-import React from "react";
+// import React from "react";
 import "./Skills.scss"
 import "./Content.scss"
 import globalStates from '../hooks/globalStates';

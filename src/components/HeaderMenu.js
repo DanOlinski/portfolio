@@ -1,4 +1,4 @@
-import * as React from 'react';
+// import * as React from 'react';
 import "./HeaderMenu.scss"
 
 //This is the dropdown menu located in the header
