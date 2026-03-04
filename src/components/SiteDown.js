@@ -1,5 +1,5 @@
 import * as React from 'react';
-import "./Loading.scss";
+// import "./Loading.scss";
 import globalStates from '../hooks/globalStates';
 import "./SiteDown.scss";
 // import resumePdf from  '../Daniel Olinski G. - Resume.pdf';

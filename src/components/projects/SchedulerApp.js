@@ -5,28 +5,19 @@ import globalStates from '../../hooks/globalStates';
 
 //This section is rendered inside the "Projects" component.
 export default function SchedulerApp() {
-  const { schedulerApp, setSchedulerApp} = globalStates()
-  // const { schedulerApp, setSchedulerApp, setLoading, click, setClick, setUrl} = globalStates()
+  const { schedulerApp, setSchedulerApp, schedulerUrl, setSiteDown} = globalStates()
 
   //when the text is clicked change the state to "true" or "false". This state is used to expand or collapse this component.
   const handelClickSchedulerApp = () => {
     setSchedulerApp(!schedulerApp)
   }
 
-  const handelClickSiteDown = () => {
-    //USE THIS IF YOUR SITE IS ONLINE IN AWS (COMMENT OUT LINES 9, 21, 26, 28. UNCOMMENT LINE 8 )
-    window.open('http://13.58.245.22:8000/')
-
-    //this is the url for the app website
-    
-    // setUrl('http://13.58.245.22:8000/')
-    
-
-// console.log(url)
-    //loading state sets the loading animation
-    // setLoading(true)
-    //the click state triggers the useEffect to run, I can't use the loading state change to trigger the useEffect because it is being changed inside the useEffect and that would cause a loop
-    // setClick(!click)
+  const handelClickOpenWebsite = () => {
+    if (schedulerUrl){
+      window.open(schedulerUrl)
+    } else {
+      setSiteDown('open')
+    }
   }
 
   ///depending on the value of the state the app will render a collapsed component or a expanded component
@@ -46,7 +37,7 @@ export default function SchedulerApp() {
               Link to repository
             </a>
 
-            <div className="projects-text-link" onClick={handelClickSiteDown}>
+            <div className="projects-text-link" onClick={handelClickOpenWebsite}>
               Link to website
             </div>
 

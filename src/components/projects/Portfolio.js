@@ -5,22 +5,14 @@ import globalStates from '../../hooks/globalStates';
 //This section is rendered inside the "Projects" component.
 export default function Portfolio() {
   // const { portfolio, setPortfolio, url, setUrl, setLoading, click, setClick  } = globalStates()
-  const { portfolio, setPortfolio  } = globalStates()
+  const { portfolio, setPortfolio,  portfolioUrl, setSiteDown} = globalStates()
 
-  const handelClickSiteDown = () => {
-     //USE THIS IF YOUR SITE IS ONLINE IN AWS (COMMENT OUT LINES 7, 17, 21, 23. UNCOMMENT LINE 8 )
-    window.open('http://3.148.186.107:3000/')
-
-    //this is the url for the app website
-  //usually I preffer accessing an expressJs server instead of a react server. Because my express servers have CROS enabled, wich allows for API requests. if I try to perform an API request to an end point that is not configured to allow for CROS protocol, then even if the url works, this app will throw an error
-
-    // setUrl('http://13.58.245.22:8004/')
-
-// console.log(url)
-    //loading state sets the loading animation
-    // setLoading(true)
-    //the click state triggers the useEffect to run, I can't use the loading state change to trigger the useEffect because it is being changed inside the useEffect and that would cause a loop
-    // setClick(!click)
+  const handelClickOpenWebsite = () => {
+    if (portfolioUrl){
+      window.open(portfolioUrl)
+    } else {
+      setSiteDown('open')
+    }
   }
 
     const handelClickPortfolio = () => {
@@ -47,7 +39,7 @@ export default function Portfolio() {
                   Link to repository
                 </a>
 
-            <div className="projects-text-link" onClick={handelClickSiteDown}>
+            <div className="projects-text-link" onClick={handelClickOpenWebsite}>
               Link to website
             </div>
     

@@ -3,6 +3,24 @@ import { create } from 'zustand';
 const globalStates = create((set) => ({
     //here the defaultCategory is set to an empty array, since in this app all data coming from db is an array, if the data type is set to something different the app breaks. 
   
+    //the url states point to the url of the staged websites
+    //if any of these urls are set to null, the client will show siteDown page
+    schedulerUrl: 'http://13.58.245.22:8000/',
+    // schedulerUrl: null,
+    setSchedulerUrl: (newData) => {
+      set(()=>({schedulerUrl: newData}))
+    },
+    portfolioUrl: 'http://3.148.186.107:3000/',
+    // portfolioUrl: null,
+    setPortfolioUrl: (newData) => {
+      set(()=>({portfolioUrl: newData}))
+    },
+    // scribbleUrl: 'http://13.58.245.22:8000/',
+    scribbleUrl: null,
+    setScribbleUrl: (newData) => {
+      set(()=>({scribbleUrl: newData}))
+    },
+
     dropDown: false,
     setDropDown: (newData) => {
       //set is a function that returns an object. insert a a single key&value pair, where the value is an array(incoming from db), the key name HAS to be the same as the state(in this case: dropDown)
@@ -16,7 +34,7 @@ const globalStates = create((set) => ({
       set(()=>({content: newData}))
     },
     
-    //the states bellow control expanding and collapsing sections in the website
+    //the states bellow control expanding and collapsing sections in the websit
     projects: false,
     setProjects: (newData) => {
       set(()=>({projects: newData}))
