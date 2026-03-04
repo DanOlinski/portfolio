@@ -12,8 +12,8 @@ export default function SchedulerApp() {
   const handelClickSchedulerApp = () => {
     setSchedulerApp(!schedulerApp)
   }
-// const url = 'http://13.58.245.22:8000/';
-const url = 'http://13.58.245.22:8007/';
+const url = 'http://13.58.245.22:8000/';
+// const url = 'http://13.58.245.22:8007/';
 
 
 
