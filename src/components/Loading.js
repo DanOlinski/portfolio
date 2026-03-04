@@ -60,7 +60,10 @@ React.useEffect(() => {
             // window.open(`https://corsproxy.io/?${encodeURIComponent(url)}`, '_blank', 'noopener,noreferrer');
             // window.open(`https://cors.sh/${url}`, '_blank', 'noopener,noreferrer');
             // window.open(`https://cors.sh/http://13.58.245.22:8000/`, '_blank', 'noopener,noreferrer');
-            window.open(`https://api.allorigins.win/raw?url=${encodeURIComponent('http://13.58.245.22:8000/')}`, '_blank', 'noopener,noreferrer');
+            // window.open(`https://api.allorigins.win/raw?url=${encodeURIComponent('http://13.58.245.22:8000/')}`, '_blank', 'noopener,noreferrer');
+            const proxyUrl = `/api/proxy?url=${encodeURIComponent(url)}`;
+            window.open(proxyUrl, '_blank', 'noopener,noreferrer');
+
             setUrl(false)
           }
         }
