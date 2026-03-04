@@ -1,0 +1,167 @@
+.preloadResume{
+    opacity: 0;
+    z-index: 0;
+    width: 0;
+    height: 0;
+    overflow: hidden;
+}
+
+.resumeContainer{
+    position: fixed;
+    margin-left: 6px;
+    margin-right: 6px;
+    z-index: 10;
+    display: grid;
+    
+    top: 10px;
+    overflow: unset;
+    max-height: unset;
+
+
+    animation-name: resumeContainerAnimation;
+    animation-duration: 2s;
+   
+
+}
+@keyframes resumeContainerAnimation {
+    0%   { 
+        overflow: hidden;
+        top: 96px;
+        max-height: 0%;
+        opacity: 0.3;
+    }
+    30% {
+        max-height: 100%;
+        top: 10px;
+        opacity: 1;
+    }
+  }
+
+.scrollContainer{
+    height: 73vh;
+    padding-bottom: 20px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    // scrollbar-width: none;
+    scrollbar-width: thin;
+    padding-right: 40px;
+    padding-left: 40px;
+    padding-top: 30px;
+    background-color: white;
+
+      
+}
+
+
+
+.resumeHeader{
+    position: relative;
+    // width: 191vh;
+    background-color: #2f2929;
+    // top: -22px;
+    height: 55px;
+    display: flex;
+    flex-direction: row-reverse;
+    border-color: rgba(163, 167, 170, 0.9);
+    border-style: solid;
+    border-bottom-color: #f0f8ff00;
+}
+
+.exitButton{
+    cursor: pointer;
+    // background-color: red;
+    width: 40px;
+    margin-left: 8px;
+    margin-right: 8px;
+}
+.close{
+    width: 29px;
+    height: 2.3px;
+    background:  rgb(163 167 170 / 90%);
+    border-radius: 1px;
+    top: 25px;
+    position: relative;
+    right: 1px;
+    
+      
+
+      &-stem1{
+        rotate: 45deg;
+      }
+      &-stem2{
+        rotate: -45deg;
+        top: 23px;
+      }
+}
+
+.resumePic{
+    // width: -webkit-fill-available;
+    width: 100%;
+    // margin-top: 50px;
+    margin-bottom: -5px;
+}
+
+.downloadIcon{
+    cursor: pointer;
+    margin: 11px;
+    width: 40px;
+    height: 29px;
+}
+
+
+@media(max-width:572px){
+    .exitButton{
+        margin-right: -2px;
+    }
+    .close{
+        width: 25px;
+    }
+    .close-stem2{
+        top: 23px;
+    }
+    .downloadIcon{
+        width: 34px;
+        height: 27px;
+    }
+    .resumeHeader{
+        height: 49px;
+    }
+}
+
+@media(max-width:450px){
+
+    .resumeContainer{
+        margin-top: unset; 
+     margin-left: unset; 
+     margin-right: 13px;
+    }
+    .exitButton{
+        width: 27px;
+    }
+    .close{
+        width: 19px;
+        height: 1.5px;
+        // right: -21px;
+        top: 19px;
+    }
+    .close-stem2{
+        top: 18px;
+    }
+    .downloadIcon{
+        width: 23px;
+        height: 19px;
+        margin-top: 10px;
+        margin-right: 3px;
+    }
+    .resumeHeader{
+        height: 38px;
+    }
+}
+
+@media(max-width:428px){
+    .scrollContainer {
+        height: unset;
+        padding-bottom: 33px;
+        padding-top: 20px;
+    }
+}

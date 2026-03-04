@@ -55,7 +55,12 @@ React.useEffect(() => {
           setUrl(false)
           // Only open on success
           if (url) {
-            window.open(url, '_blank', 'noopener,noreferrer');
+            // window.open(`https://api.allorigins.win/raw?url=${encodeURIComponent(url)}`, '_blank', 'noopener,noreferrer');
+            // window.open(`https://thingproxy.freeboard.io/fetch/${url}`, '_blank', 'noopener,noreferrer');
+            // window.open(`https://corsproxy.io/?${encodeURIComponent(url)}`, '_blank', 'noopener,noreferrer');
+            // window.open(`https://cors.sh/${url}`, '_blank', 'noopener,noreferrer');
+            // window.open(`https://cors.sh/http://13.58.245.22:8000/`, '_blank', 'noopener,noreferrer');
+            window.open(`https://api.allorigins.win/raw?url=${encodeURIComponent('http://13.58.245.22:8000/')}`, '_blank', 'noopener,noreferrer');
             setUrl(false)
           }
         }

@@ -73,16 +73,16 @@ export default function Header() {
           <div onClick={resumeState}>
 
 
-            <img className="icon resume" src="/portfolio/images/resume.png" alt=""></img>
+            <img className="icon resume" src="/images/resume.png" alt=""></img>
           </div>
           <a href="https://www.linkedin.com/in/daniel-olinski/" target="_blank" rel="noreferrer">
-            <img className="icon linkedin" src="/portfolio/images/linkedin.png" alt=""></img>
+            <img className="icon linkedin" src="/images/linkedin.png" alt=""></img>
           </a>
           <a href="https://github.com/DanOlinski" target="_blank" rel="noreferrer">
-            <img className="icon github" src="/portfolio/images/github.png" alt=""></img>
+            <img className="icon github" src="/images/github.png" alt=""></img>
           </a>
 
-          <img onClick={handelEmailClick} className="icon email" src="/portfolio/images/email.png" alt=""></img>
+          <img onClick={handelEmailClick} className="icon email" src="/images/email.png" alt=""></img>
 
         </>
     )
@@ -95,7 +95,7 @@ export default function Header() {
 
 
           <div className="header-img-outer">
-          <img onClick={handelHomeClick} className="header-img" src="/portfolio/images/profile.jpg" alt=""></img>
+          <img onClick={handelHomeClick} className="header-img" src="/images/profile.jpg" alt=""></img>
           </div>
 
           <div className='intro'>

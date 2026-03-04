@@ -1,12 +1,17 @@
 import * as React from 'react';
 import "./Loading.scss";
 import globalStates from '../hooks/globalStates';
+import "./SiteDown.scss";
 // import resumePdf from  '../Daniel Olinski G. - Resume.pdf';
 // this loads the image before the resume component is opened so that the animation of opening the resume component works smoothly
 // import image from "../resume.jpg";
 
 export default function SiteDown() {
   const { siteDown, setSiteDown } = globalStates()
+//----------------
+  //this is used to set a reference value for a div (in the div you want to reference place ref="<variable>") the variable name has to end with Ref
+  //this reference is used for the useEffect below to identify when the user clicks outside of a given div, so that the dropDown hook can be set to false, triggering the conditional statement in the function renderDropDownMenu and consequently closing the drop down menu
+  const siteDownRef = React.useRef();
 
   const closeSiteDown = () => {
     setSiteDown('close')
@@ -35,7 +40,7 @@ export default function SiteDown() {
 
             <div className='scrollContainerSiteDown'>
               {/* <img className="siteDownIcon" src={image}></img> */}
-              <img className='siteDownIcon' src="/portfolio/images/server-maintenance-icon.png" alt=""></img>
+              <img className='siteDownIcon' src="/images/server-maintenance-icon.png" alt=""></img>
               <div>
                 Sorry, the application you are trying to open is currently offline.
                 <p></p>
@@ -53,11 +58,7 @@ export default function SiteDown() {
 
   }
 
-  //----------------
-  //this is used to set a reference value for a div (in the div you want to reference place ref="<variable>") the variable name has to end with Ref
-  //this reference is used for the useEffect below to identify when the user clicks outside of a given div, so that the dropDown hook can be set to false, triggering the conditional statement in the function renderDropDownMenu and consequently closing the drop down menu
-  const siteDownRef = React.useRef();
-
+  
   //this useEffect listens for clicks on the browser, if the click occurs outside of the drop down menu (detect by the use of the variable declared above; resumeRef), the dropDown state will be changed to false triggering the conditional statement in the function renderDropDownMenu and consequently closing the drop down menu
   React.useEffect(() => {
 
@@ -84,7 +85,7 @@ export default function SiteDown() {
     return () => {
       document.body.removeEventListener('mousedown', closeMenuOnClickOutside);
     };
-// eslint-disable-next-line
+// eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   //----------------
