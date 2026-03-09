@@ -95,7 +95,7 @@ export default function Header() {
 
 
           <div className="header-img-outer">
-          <img onClick={handelHomeClick} className="header-img" src="/portfolio/images/profile-1.jpg" alt=""></img>
+          <img onClick={handelHomeClick} className="header-img" src="/portfolio/images/profile-2.jpg" alt=""></img>
           </div>
 
           <div className='intro'>
