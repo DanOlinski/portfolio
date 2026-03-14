@@ -6,7 +6,14 @@
     overflow: hidden;
 }
 
+.outerContainer{
+        width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
 .resumeContainer{
+    width: 80%;
     position: fixed;
     margin-left: 6px;
     margin-right: 6px;
@@ -110,6 +117,9 @@
 
 
 @media(max-width:572px){
+    .resumeContainer{
+        width: 95%;
+    }
     .exitButton{
         margin-right: -2px;
     }
@@ -132,8 +142,8 @@
 
     .resumeContainer{
         margin-top: unset; 
-     margin-left: unset; 
-     margin-right: 13px;
+    //  margin-left: unset; 
+    //  margin-right: unset;
     }
     .exitButton{
         width: 27px;
