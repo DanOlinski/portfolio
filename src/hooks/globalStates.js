@@ -5,17 +5,17 @@ const globalStates = create((set) => ({
   
     //the url states point to the url of the staged websites
     //if any of these urls are set to null, the client will show siteDown page
-    schedulerUrl: 'http://13.58.245.22:8000/',
+    schedulerUrl: 'http://3.16.213.234:8000/',
     // schedulerUrl: null,
     setSchedulerUrl: (newData) => {
       set(()=>({schedulerUrl: newData}))
     },
-    portfolioUrl: 'http://3.148.186.107:3000/',
+    portfolioUrl: 'http://52.15.190.2:3000/',
     // portfolioUrl: null,
     setPortfolioUrl: (newData) => {
       set(()=>({portfolioUrl: newData}))
     },
-    scribbleUrl: 'http://18.116.202.236:8000//',
+    scribbleUrl: 'http://3.22.186.229:8000//',
     // scribbleUrl: null,
     setScribbleUrl: (newData) => {
       set(()=>({scribbleUrl: newData}))
