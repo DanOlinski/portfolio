@@ -44,3 +44,5 @@ In the project directory, you can run:
 - If you are using WLS it is advised to run any react app using the shell terminal, otherwise you may run into some serious lag while running the react app. Also whenever you change a feature in you app the changes may not be able to visualize in your localhost unless you add some extra code to your `package.json` file or restar the react server at every change.
 - Make sure you are using Node version 16
 - Open [http://localhost:3000] to view the app in your browser.
+
+...
