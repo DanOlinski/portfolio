@@ -10,14 +10,14 @@ const globalStates = create((set) => ({
     setSchedulerUrl: (newData) => {
       set(()=>({schedulerUrl: newData}))
     },
-    portfolioUrl: 'http://52.15.190.2:3000/',
-    // portfolioUrl: null,
+    // portfolioUrl: 'http://52.15.190.2:3000/',
+    portfolioUrl: null,
     setPortfolioUrl: (newData) => {
       set(()=>({portfolioUrl: newData}))
     },
     scribbleUrl: 'http://18.226.68.85:8000/',
-    // scribbleUrl: null,
-    setScribbleUrl: (newData) => {
+    scribbleUrl: null,
+    // setScribbleUrl: (newData) => {
       set(()=>({scribbleUrl: newData}))
     },
 
