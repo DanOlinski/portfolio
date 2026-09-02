@@ -15,7 +15,7 @@ const globalStates = create((set) => ({
     setPortfolioUrl: (newData) => {
       set(()=>({portfolioUrl: newData}))
     },
-    scribbleUrl: 'http://18.226.68.85:8000/',
+    // scribbleUrl: 'http://18.226.68.85:8000/',
     scribbleUrl: null,
     // setScribbleUrl: (newData) => {
       set(()=>({scribbleUrl: newData}))
