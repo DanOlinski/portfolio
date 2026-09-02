@@ -5,8 +5,8 @@ const globalStates = create((set) => ({
   
     //the url states point to the url of the staged websites
     //if any of these urls are set to null, the client will show siteDown page
-    schedulerUrl: 'http://18.219.28.223:8000/',
-    // schedulerUrl: null,
+    // schedulerUrl: 'http://18.219.28.223:8000/',
+    schedulerUrl: null,
     setSchedulerUrl: (newData) => {
       set(()=>({schedulerUrl: newData}))
     },
