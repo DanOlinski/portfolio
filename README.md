@@ -22,10 +22,12 @@
 
 - The next steps will be different if you are deploying the website from WLS or Linux machine:
     - for Linux machiene;
+        - Make sure you are on master branch (make sure master and gh-pages branches are up to date and have equal info) 
         - Push all of your code to the GitHub repository
         - From the terminal run the command `npm run deploy`
 
     - For WSL machine:
+        -I'm not sure but I think the process below is for when you are working on gh-pages branch 
         - npm run deploy doesn't work here
         - make sure you are on gh-pages branch (run; `git branch` to check)
         - make sure that you repo is deploying the website from gh-pages branch (go to gitHub website / your repository / settings / pages. There you can set the branch from where your website will be deployed)
