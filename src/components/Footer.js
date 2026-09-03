@@ -58,7 +58,7 @@ const resumeState =()=>{
         daniel.olinski@outlook.com
       </div>
       <div className='text'>
-        +1(403)618-0269
+        +1(404)643-7535
       </div>
 
     </div>
